@@ -81,6 +81,36 @@ textarea {
   font-size: 0.9rem;
 }
 
+.masthead-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.run-now-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid #087f7b;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #087f7b;
+  box-shadow: 0 8px 18px rgba(8, 127, 123, 0.16);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.run-now-button:hover,
+.run-now-button:focus-visible {
+  background: #046f6d;
+  outline: none;
+}
+
 .report-meta div {
   display: flex;
   gap: 8px;
@@ -551,6 +581,11 @@ a {
 
   .report-meta {
     justify-content: flex-start;
+  }
+
+  .masthead-actions {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .status-board {

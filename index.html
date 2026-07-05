@@ -15,16 +15,25 @@
           <span aria-hidden="true"></span>
           <p>A股早盘研究台</p>
         </div>
-        <dl class="report-meta" aria-label="报告信息">
-          <div>
-            <dt>生成时间</dt>
-            <dd id="generated-at">读取中</dd>
-          </div>
-          <div>
-            <dt>交易日</dt>
-            <dd id="trade-date">读取中</dd>
-          </div>
-        </dl>
+        <div class="masthead-actions">
+          <dl class="report-meta" aria-label="报告信息">
+            <div>
+              <dt>生成时间</dt>
+              <dd id="generated-at">读取中</dd>
+            </div>
+            <div>
+              <dt>交易日</dt>
+              <dd id="trade-date">读取中</dd>
+            </div>
+          </dl>
+          <a
+            id="run-now"
+            class="run-now-button"
+            href="https://github.com/bouquett/stock-research-engine/actions/workflows/morning-research.yml"
+            target="_blank"
+            rel="noreferrer"
+          >立即启动</a>
+        </div>
       </header>
 
       <section class="status-board" aria-label="报告状态">
