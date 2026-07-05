@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { batchLabel, formatAmount, formatDateTime, summarizeDiff } from "../src/format.js";
 
 test("batchLabel formats known batches", () => {
+  assert.equal(batchLabel("now"), "立即启动");
   assert.equal(batchLabel("0830"), "08:30 初版");
   assert.equal(batchLabel("0900"), "09:00 刷新版");
 });

@@ -1,4 +1,5 @@
 export function batchLabel(batch) {
+  if (batch === "now") return "立即启动";
   if (batch === "0830") return "08:30 初版";
   if (batch === "0900") return "09:00 刷新版";
   return batch || "未知批次";
