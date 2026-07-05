@@ -7,6 +7,7 @@ test("index includes required report mount points", async () => {
 
   assert.match(html, /id="generated-at"/);
   assert.match(html, /id="trade-date"/);
+  assert.match(html, /data-batch-option="now"/);
   assert.match(html, /data-batch-option="0830"/);
   assert.match(html, /id="themes"/);
   assert.match(html, /id="candidates"/);
