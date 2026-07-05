@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-07-05T09:00:00+08:00",
+    "trade_date": "2026-07-05",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "AI算力",
+      "summary": "AI算力主题因隔夜产业信号和盘前交易活跃度进入早盘观察。",
+      "score": 88.2,
+      "signals": ["隔夜信号：AI infrastructure stronger", "A股相关个股成交活跃度提升"],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "AI infrastructure stronger",
+          "source_name": "fixture",
+          "url": "https://example.com/ai",
+          "observed_at": null
+        }
+      ],
+      "risks": ["主题热度可能在开盘后快速变化"]
+    },
+    {
+      "name": "半导体设备",
+      "summary": "设备链受扩产和国产替代预期带动，进入产业链映射候选。",
+      "score": 76.4,
+      "signals": ["晶圆厂扩产预期延续", "设备招标关注度提升"],
+      "evidence": [],
+      "risks": ["国产替代进度不及预期"]
+    },
+    {
+      "name": "机器人",
+      "summary": "人形机器人产业链热度维持，零部件订单和政策关注度提供触发。",
+      "score": 68.1,
+      "signals": ["零部件订单放量", "政策资金关注度提升"],
+      "evidence": [],
+      "risks": ["商业化节奏可能低于市场预期"]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "688981",
+      "name": "中芯国际",
+      "market": "科创板",
+      "themes": ["AI算力", "半导体设备"],
+      "score": 88.0,
+      "reason": "中芯国际与 AI算力、半导体设备主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI算力 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 7945000000，涨跌幅 1.28%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "晶圆代工需求波动可能影响主题持续性"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 1.28,
+        "amount": 7945000000,
+        "turnover_rate": 0.86,
+        "volume_ratio": 1.68
+      }
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "market": "深市主板",
+      "themes": ["新能源车产业链", "储能"],
+      "score": 85.0,
+      "reason": "宁德时代受储能订单和海外需求信号带动，进入早盘观察。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "储能订单放量，海外需求向好",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "cost",
+          "text": "原材料价格波动可能压缩盈利预期"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 0.92,
+        "amount": 21560000000,
+        "turnover_rate": 0.47,
+        "volume_ratio": 1.42
+      }
+    },
+    {
+      "code": "601138",
+      "name": "工业富联",
+      "market": "沪市主板",
+      "themes": ["AI算力", "消费电子"],
+      "score": 83.0,
+      "reason": "工业富联与 AI 服务器链条相关，订单和服务器需求是主要观察点。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "AI服务器需求强劲，新客户订单增加",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "customer",
+          "text": "客户集中度较高，汇率波动可能影响利润"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 1.15,
+        "amount": 2178000000,
+        "turnover_rate": 1.02,
+        "volume_ratio": 1.96
+      }
+    },
+    {
+      "code": "002371",
+      "name": "北方华创",
+      "market": "深市主板",
+      "themes": ["半导体设备"],
+      "score": 80.0,
+      "reason": "北方华创处在半导体设备链核心环节，受国产替代主题映射。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "设备国产替代和扩产预期延续",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "delivery",
+          "text": "国产替代进度和下游扩产节奏可能不及预期"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 1.03,
+        "amount": 31280000000,
+        "turnover_rate": 0.68,
+        "volume_ratio": 1.33
+      }
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "market": "创业板",
+      "themes": ["AI算力", "通信设备"],
+      "score": 78.0,
+      "reason": "中际旭创受高速光模块订单和海外云厂商需求信号带动。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "800G 光模块放量，高速光模块订单饱满",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "competition",
+          "text": "行业竞争加剧，技术迭代速度快"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 0.88,
+        "amount": 14238000000,
+        "turnover_rate": 1.21,
+        "volume_ratio": 1.74
+      }
+    }
+  ],
+  "warnings": ["提示：美股 API key 未配置，已跳过隔夜 API 信号。"]
+}

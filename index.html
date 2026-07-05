@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>8点半启动</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="masthead">
+        <div class="brand-line">
+          <h1>8点半启动</h1>
+          <span aria-hidden="true"></span>
+          <p>A股早盘研究台</p>
+        </div>
+        <dl class="report-meta" aria-label="报告信息">
+          <div>
+            <dt>生成时间</dt>
+            <dd id="generated-at">读取中</dd>
+          </div>
+          <div>
+            <dt>交易日</dt>
+            <dd id="trade-date">读取中</dd>
+          </div>
+        </dl>
+      </header>
+
+      <section class="status-board" aria-label="报告状态">
+        <div class="batch-stack">
+          <div class="batch-option" data-batch-option="0830">
+            <span class="batch-icon"></span>
+            <strong>08:30</strong>
+            <span>初版</span>
+          </div>
+          <div class="batch-option" data-batch-option="0900">
+            <span class="batch-icon"></span>
+            <strong>09:00</strong>
+            <span>刷新版</span>
+          </div>
+        </div>
+
+        <div class="status-cell">
+          <span class="label">数据状态</span>
+          <strong id="data-status">读取中</strong>
+          <span id="status-note">等待公开报告</span>
+        </div>
+
+        <div class="status-cell">
+          <span class="label">主题数量</span>
+          <strong id="theme-count">0</strong>
+          <span>产业链机会</span>
+        </div>
+
+        <div class="status-cell">
+          <span class="label">候选股票</span>
+          <strong id="candidate-count">0</strong>
+          <span>研究清单</span>
+        </div>
+
+        <div class="status-cell chart-cell">
+          <span class="label">综合强度</span>
+          <div id="score-sparkline" class="sparkline" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="theme-rail" aria-labelledby="themes-title">
+          <div class="section-heading">
+            <h2 id="themes-title">主题/产业链机会</h2>
+          </div>
+          <div id="themes" class="theme-list"></div>
+        </aside>
+
+        <section class="candidate-board" aria-labelledby="candidates-title">
+          <div class="section-heading">
+            <h2 id="candidates-title">候选股票</h2>
+            <p id="candidate-summary">等待报告</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">代码/名称</th>
+                  <th scope="col">市场</th>
+                  <th scope="col">所属主题</th>
+                  <th scope="col">综合强度</th>
+                  <th scope="col">行情快照</th>
+                  <th scope="col">触发信号</th>
+                  <th scope="col">证据与风险</th>
+                </tr>
+              </thead>
+              <tbody id="candidates"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="warnings" class="warnings" aria-live="polite"></section>
+      <footer id="disclaimer" class="disclaimer">仅供研究参考，不构成投资建议。</footer>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
