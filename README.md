@@ -10,3 +10,10 @@ python3 -m http.server 4173
 ```
 
 打开 `http://localhost:4173` 查看页面。
+
+## First release checklist
+
+- `npm test` passes.
+- `data/latest.json` follows version 1 of the public report contract.
+- The page can be served by GitHub Pages without a server process.
+- The page reads only public JSON and does not require login.

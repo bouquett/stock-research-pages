@@ -14,7 +14,7 @@ export function formatAmount(value) {
 
 export function formatDateTime(value) {
   if (!value) return "未知时间";
-  return String(value).replace("T", " ").replace(/\+.*$/, "");
+  return String(value).replace("T", " ").replace(/\.\d+/, "").replace(/\+.*$/, "");
 }
 
 export function formatPercent(value) {
