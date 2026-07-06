@@ -1,7 +1,7 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-07-06T08:40:12.066511+08:00",
+    "generated_at": "2026-07-06T08:54:40.317572+08:00",
     "trade_date": "2026-07-06",
     "batch": "now",
     "data_status": "ok",
@@ -9,39 +9,12 @@
   },
   "themes": [
     {
-      "name": "汽车零部件",
-      "summary": "汽车零部件 主题因市场强度和触发信号进入早盘观察。",
-      "score": 105.92,
-      "signals": [
-        "隔夜信号：隔夜 TSLA -7.49%，映射：汽车零部件 机器人 锂电池",
-        "A股概念板块涨跌幅 4.24%，上涨家数 247"
-      ],
-      "evidence": [
-        {
-          "kind": "overnight",
-          "text": "隔夜 TSLA -7.49%，映射：汽车零部件 机器人 锂电池",
-          "source_name": "overnight",
-          "url": "https://finnhub.io/docs/api/quote",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "汽车零部件 成交额 94885000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        "主题热度可能在开盘后快速变化"
-      ]
-    },
-    {
       "name": "贵金属",
       "summary": "贵金属 主题因市场强度和触发信号进入早盘观察。",
-      "score": 101.26,
+      "score": 101.84,
       "signals": [
         "隔夜信号：隔夜 GLD +2.03%，映射：贵金属",
+        "隔夜信号：夜盘 COMEX黄金 +1.81%，映射：贵金属",
         "A股概念板块涨跌幅 6.17%，上涨家数 13"
       ],
       "evidence": [
@@ -53,36 +26,15 @@
           "observed_at": null
         },
         {
-          "kind": "market",
-          "text": "贵金属 成交额 40180000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        "主题热度可能在开盘后快速变化"
-      ]
-    },
-    {
-      "name": "消费电子",
-      "summary": "消费电子 主题因市场强度和触发信号进入早盘观察。",
-      "score": 89.32,
-      "signals": [
-        "隔夜信号：隔夜 AAPL +4.84%，映射：消费电子 苹果概念",
-        "A股概念板块涨跌幅 2.39%，上涨家数 74"
-      ],
-      "evidence": [
-        {
           "kind": "overnight",
-          "text": "隔夜 AAPL +4.84%，映射：消费电子 苹果概念",
+          "text": "夜盘 COMEX黄金 +1.81%，映射：贵金属",
           "source_name": "overnight",
-          "url": "https://finnhub.io/docs/api/quote",
+          "url": "https://finance.sina.com.cn/money/future/hf.html",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "消费电子 成交额 97261000000",
+          "text": "贵金属 成交额 40180000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -131,156 +83,57 @@
       "risks": [
         "主题热度可能在开盘后快速变化"
       ]
+    },
+    {
+      "name": "电机",
+      "summary": "电机 主题因市场强度和触发信号进入早盘观察。",
+      "score": 81.92,
+      "signals": [
+        "A股概念板块涨跌幅 5.59%，上涨家数 24"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "电机 成交额 13047000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "消费电子",
+      "summary": "消费电子 主题因市场强度和触发信号进入早盘观察。",
+      "score": 81.0,
+      "signals": [
+        "隔夜信号：隔夜 AAPL +4.84%，映射：消费电子 苹果概念",
+        "A股概念板块涨跌幅 2.39%，上涨家数 74"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "隔夜 AAPL +4.84%，映射：消费电子 苹果概念",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "消费电子 成交额 97261000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
     }
   ],
   "candidates": [
-    {
-      "code": "300580",
-      "name": "贝斯特",
-      "market": "创业板",
-      "themes": [
-        "汽车零部件"
-      ],
-      "score": 143.85,
-      "reason": "贝斯特 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 汽车零部件 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1078714723，涨跌幅 20.02%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "汽车零部件 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 20.018,
-        "amount": 1078714723.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "301499",
-      "name": "维科精密",
-      "market": "创业板",
-      "themes": [
-        "汽车零部件"
-      ],
-      "score": 141.53,
-      "reason": "维科精密 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 汽车零部件 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 292465316，涨跌幅 20.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "汽车零部件 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 20.0,
-        "amount": 292465316.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "300912",
-      "name": "凯龙高科",
-      "market": "创业板",
-      "themes": [
-        "汽车零部件"
-      ],
-      "score": 141.15,
-      "reason": "凯龙高科 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 汽车零部件 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 235836952，涨跌幅 20.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "汽车零部件 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 20.0,
-        "amount": 235836952.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
     {
       "code": "688017",
       "name": "绿的谐波",
@@ -380,104 +233,6 @@
       }
     },
     {
-      "code": "301225",
-      "name": "恒勃股份",
-      "market": "创业板",
-      "themes": [
-        "汽车零部件"
-      ],
-      "score": 128.67,
-      "reason": "恒勃股份 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 汽车零部件 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 496871118，涨跌幅 15.41%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "汽车零部件 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 15.408,
-        "amount": 496871118.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "301051",
-      "name": "信濠光电",
-      "market": "创业板",
-      "themes": [
-        "消费电子"
-      ],
-      "score": 126.99,
-      "reason": "信濠光电 与 消费电子 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 消费电子 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 791015695，涨跌幅 17.07%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "消费电子 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 17.069,
-        "amount": 791015695.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
       "code": "688523",
       "name": "航天环宇",
       "market": "科创板",
@@ -527,13 +282,62 @@
       }
     },
     {
+      "code": "301051",
+      "name": "信濠光电",
+      "market": "创业板",
+      "themes": [
+        "消费电子"
+      ],
+      "score": 123.25,
+      "reason": "信濠光电 与 消费电子 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 消费电子 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 791015695，涨跌幅 17.07%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "消费电子 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 17.069,
+        "amount": 791015695.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
       "code": "300139",
       "name": "晓程科技",
       "market": "创业板",
       "themes": [
         "贵金属"
       ],
-      "score": 122.11,
+      "score": 122.37,
       "reason": "晓程科技 与 贵金属 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -576,25 +380,25 @@
       }
     },
     {
-      "code": "300695",
-      "name": "兆丰股份",
+      "code": "300777",
+      "name": "中简科技",
       "market": "创业板",
       "themes": [
-        "汽车零部件"
+        "军工装备"
       ],
-      "score": 120.79,
-      "reason": "兆丰股份 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
+      "score": 119.42,
+      "reason": "中简科技 与 军工装备 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 汽车零部件 主题产业链候选",
+          "text": "进入 军工装备 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 400890705，涨跌幅 12.90%",
+          "text": "成交额 1073896325，涨跌幅 14.50%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -610,7 +414,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "汽车零部件 热度可能在开盘后快速回落"
+          "text": "军工装备 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -618,8 +422,204 @@
         }
       ],
       "snapshot": {
-        "pct_change": 12.904,
-        "amount": 400890705.0,
+        "pct_change": 14.497,
+        "amount": 1073896325.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300660",
+      "name": "江苏雷利",
+      "market": "创业板",
+      "themes": [
+        "电机"
+      ],
+      "score": 116.49,
+      "reason": "江苏雷利 与 电机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1374143901，涨跌幅 14.36%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电机 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 14.359,
+        "amount": 1374143901.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300607",
+      "name": "拓斯达",
+      "market": "创业板",
+      "themes": [
+        "自动化设备"
+      ],
+      "score": 116.31,
+      "reason": "拓斯达 与 自动化设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 自动化设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 4594583902，涨跌幅 13.55%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "自动化设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 13.551,
+        "amount": 4594583902.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000975",
+      "name": "山金国际",
+      "market": "深市主板",
+      "themes": [
+        "贵金属"
+      ],
+      "score": 112.25,
+      "reason": "山金国际 与 贵金属 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 贵金属 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1322045073，涨跌幅 9.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "贵金属 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.978,
+        "amount": 1322045073.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600988",
+      "name": "赤峰黄金",
+      "market": "沪市主板",
+      "themes": [
+        "贵金属"
+      ],
+      "score": 112.08,
+      "reason": "赤峰黄金 与 贵金属 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 贵金属 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1152376459，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "贵金属 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.004,
+        "amount": 1152376459.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
