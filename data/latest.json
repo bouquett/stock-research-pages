@@ -1,9 +1,9 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-13T14:56:13.767608+08:00",
+    "generated_at": "2026-10-13T15:11:45.425501+08:00",
     "trade_date": "2026-10-13",
-    "batch": "0830",
+    "batch": "0900",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
@@ -11,14 +11,14 @@
     {
       "name": "CPO概念",
       "summary": "CPO概念 主题因市场强度和触发信号进入早盘观察。",
-      "score": 74.08,
+      "score": 73.76,
       "signals": [
-        "A股概念板块涨跌幅 2.51%，上涨家数 82"
+        "A股概念板块涨跌幅 2.47%，上涨家数 81"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "CPO概念 成交额 6771886080000",
+          "text": "CPO概念 成交额 6770826752000",
           "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
@@ -31,14 +31,14 @@
     {
       "name": "光通信模块",
       "summary": "光通信模块 主题因市场强度和触发信号进入早盘观察。",
-      "score": 73.76,
+      "score": 73.36,
       "signals": [
-        "A股概念板块涨跌幅 2.47%，上涨家数 95"
+        "A股概念板块涨跌幅 2.42%，上涨家数 97"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "光通信模块 成交额 5765012736000",
+          "text": "光通信模块 成交额 5763415808000",
           "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
@@ -51,34 +51,14 @@
     {
       "name": "PCB",
       "summary": "PCB 主题因市场强度和触发信号进入早盘观察。",
-      "score": 71.12,
+      "score": 70.96,
       "signals": [
-        "A股概念板块涨跌幅 2.14%，上涨家数 147"
+        "A股概念板块涨跌幅 2.12%，上涨家数 148"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "PCB 成交额 5776128256000",
-          "source_name": "akshare:stock_board_concept_name_em",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        "主题热度可能在开盘后快速变化"
-      ]
-    },
-    {
-      "name": "内贸流通",
-      "summary": "内贸流通 主题因市场强度和触发信号进入早盘观察。",
-      "score": 66.48,
-      "signals": [
-        "A股概念板块涨跌幅 1.56%，上涨家数 115"
-      ],
-      "evidence": [
-        {
-          "kind": "market",
-          "text": "内贸流通 成交额 1281108864000",
+          "text": "PCB 成交额 5774146560000",
           "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
@@ -91,14 +71,34 @@
     {
       "name": "冰雪经济",
       "summary": "冰雪经济 主题因市场强度和触发信号进入早盘观察。",
-      "score": 66.14,
+      "score": 66.68,
       "signals": [
-        "A股概念板块涨跌幅 3.28%，上涨家数 33"
+        "A股概念板块涨跌幅 3.31%，上涨家数 34"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "冰雪经济 成交额 311330880000",
+          "text": "冰雪经济 成交额 311276768000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "内贸流通",
+      "summary": "内贸流通 主题因市场强度和触发信号进入早盘观察。",
+      "score": 66.56,
+      "signals": [
+        "A股概念板块涨跌幅 1.57%，上涨家数 115"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "内贸流通 成交额 1281493280000",
           "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
@@ -117,7 +117,7 @@
       "themes": [
         "光通信模块"
       ],
-      "score": 881.06,
+      "score": 882.03,
       "reason": "N粤芯-U 与 光通信模块 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -129,14 +129,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 7074403772，涨跌幅 223.15%",
+          "text": "成交额 7140360939，涨跌幅 223.06%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 69.51%，量比 0.00",
+          "text": "换手率 70.21%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -153,9 +153,9 @@
         }
       ],
       "snapshot": {
-        "pct_change": 223.15,
-        "amount": 7074403771.86,
-        "turnover_rate": 69.51,
+        "pct_change": 223.06,
+        "amount": 7140360939.46,
+        "turnover_rate": 70.21,
         "volume_ratio": 0.0
       }
     },
@@ -166,7 +166,7 @@
       "themes": [
         "冰雪经济"
       ],
-      "score": 162.53,
+      "score": 162.76,
       "reason": "晶雪节能 与 冰雪经济 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -178,14 +178,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 332490608，涨跌幅 20.00%",
+          "text": "成交额 333320108，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 13.98%，量比 2.68",
+          "text": "换手率 14.01%，量比 2.66",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -203,9 +203,9 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 332490607.58,
-        "turnover_rate": 13.98,
-        "volume_ratio": 2.68
+        "amount": 333320107.58,
+        "turnover_rate": 14.01,
+        "volume_ratio": 2.66
       }
     },
     {
@@ -216,7 +216,7 @@
         "CPO概念",
         "PCB"
       ],
-      "score": 160.71,
+      "score": 160.54,
       "reason": "金百泽 与 CPO概念 / PCB 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -228,14 +228,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 409816962，涨跌幅 20.00%",
+          "text": "成交额 410407020，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 14.44%，量比 1.01",
+          "text": "换手率 14.45%，量比 1.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -264,9 +264,9 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 409816962.01,
-        "turnover_rate": 14.44,
-        "volume_ratio": 1.01
+        "amount": 410407020.01,
+        "turnover_rate": 14.45,
+        "volume_ratio": 1.0
       }
     },
     {
@@ -276,7 +276,7 @@
       "themes": [
         "PCB"
       ],
-      "score": 160.0,
+      "score": 159.91,
       "reason": "迅捷兴 与 PCB 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -288,14 +288,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 1142677613，涨跌幅 20.00%",
+          "text": "成交额 1144112739，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 13.30%，量比 1.29",
+          "text": "换手率 13.31%，量比 1.28",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -313,9 +313,9 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 1142677613.0,
-        "turnover_rate": 13.3,
-        "volume_ratio": 1.29
+        "amount": 1144112739.0,
+        "turnover_rate": 13.31,
+        "volume_ratio": 1.28
       }
     },
     {
@@ -326,7 +326,7 @@
         "CPO概念",
         "PCB"
       ],
-      "score": 152.03,
+      "score": 154.14,
       "reason": "本川智能 与 CPO概念 / PCB 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -338,14 +338,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 1448420161，涨跌幅 10.51%",
+          "text": "成交额 1465764481，涨跌幅 11.08%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 21.00%，量比 2.13",
+          "text": "换手率 21.24%，量比 2.14",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -373,10 +373,10 @@
         }
       ],
       "snapshot": {
-        "pct_change": 10.51,
-        "amount": 1448420161.3,
-        "turnover_rate": 21.0,
-        "volume_ratio": 2.13
+        "pct_change": 11.08,
+        "amount": 1465764481.3,
+        "turnover_rate": 21.24,
+        "volume_ratio": 2.14
       }
     },
     {
@@ -386,7 +386,7 @@
       "themes": [
         "内贸流通"
       ],
-      "score": 151.15,
+      "score": 151.09,
       "reason": "东百集团 与 内贸流通 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -398,14 +398,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 2057430217，涨跌幅 10.02%",
+          "text": "成交额 2058068587，涨跌幅 10.02%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 19.74%，量比 3.61",
+          "text": "换手率 19.75%，量比 3.58",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -423,9 +423,9 @@
       ],
       "snapshot": {
         "pct_change": 10.02,
-        "amount": 2057430217.0,
-        "turnover_rate": 19.74,
-        "volume_ratio": 3.61
+        "amount": 2058068587.0,
+        "turnover_rate": 19.75,
+        "volume_ratio": 3.58
       }
     },
     {
@@ -435,7 +435,7 @@
       "themes": [
         "光通信模块"
       ],
-      "score": 146.53,
+      "score": 146.5,
       "reason": "光智科技 与 光通信模块 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -447,14 +447,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 5253811942，涨跌幅 14.10%",
+          "text": "成交额 5291343954，涨跌幅 14.07%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 13.48%，量比 1.30",
+          "text": "换手率 13.57%，量比 1.31",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -471,10 +471,10 @@
         }
       ],
       "snapshot": {
-        "pct_change": 14.1,
-        "amount": 5253811942.23,
-        "turnover_rate": 13.48,
-        "volume_ratio": 1.3
+        "pct_change": 14.07,
+        "amount": 5291343954.23,
+        "turnover_rate": 13.57,
+        "volume_ratio": 1.31
       }
     },
     {
@@ -485,7 +485,7 @@
         "CPO概念",
         "PCB"
       ],
-      "score": 140.36,
+      "score": 141.52,
       "reason": "泰金新能 与 CPO概念 / PCB 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -497,14 +497,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 741940718，涨跌幅 8.80%",
+          "text": "成交额 751817211，涨跌幅 9.06%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 19.61%，量比 1.48",
+          "text": "换手率 19.86%，量比 1.48",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -532,10 +532,55 @@
         }
       ],
       "snapshot": {
-        "pct_change": 8.8,
-        "amount": 741940718.0,
-        "turnover_rate": 19.61,
+        "pct_change": 9.06,
+        "amount": 751817211.0,
+        "turnover_rate": 19.86,
         "volume_ratio": 1.48
+      }
+    },
+    {
+      "code": "300522",
+      "name": "世名科技",
+      "market": "创业板",
+      "themes": [
+        "PCB"
+      ],
+      "score": 139.88,
+      "reason": "世名科技 与 PCB 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 PCB 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1044895403，涨跌幅 6.89%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 22.50%，量比 1.55",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "PCB 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 6.89,
+        "amount": 1044895403.39,
+        "turnover_rate": 22.5,
+        "volume_ratio": 1.55
       }
     },
     {
@@ -545,7 +590,7 @@
       "themes": [
         "光通信模块"
       ],
-      "score": 139.52,
+      "score": 139.36,
       "reason": "华盛昌 与 光通信模块 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -557,14 +602,14 @@
         },
         {
           "kind": "market",
-          "text": "成交额 1803850189，涨跌幅 10.00%",
+          "text": "成交额 1805614149，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 16.09%，量比 1.78",
+          "text": "换手率 16.10%，量比 1.78",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -582,54 +627,9 @@
       ],
       "snapshot": {
         "pct_change": 10.0,
-        "amount": 1803850188.83,
-        "turnover_rate": 16.09,
+        "amount": 1805614148.83,
+        "turnover_rate": 16.1,
         "volume_ratio": 1.78
-      }
-    },
-    {
-      "code": "300522",
-      "name": "世名科技",
-      "market": "创业板",
-      "themes": [
-        "PCB"
-      ],
-      "score": 139.29,
-      "reason": "世名科技 与 PCB 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 PCB 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1030297763，涨跌幅 6.89%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 22.20%，量比 1.54",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "PCB 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 6.89,
-        "amount": 1030297763.39,
-        "turnover_rate": 22.2,
-        "volume_ratio": 1.54
       }
     }
   ],
