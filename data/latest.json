@@ -1,25 +1,25 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-12T14:41:21.014074+08:00",
-    "trade_date": "2026-10-12",
-    "batch": "0900",
+    "generated_at": "2026-10-13T14:56:13.767608+08:00",
+    "trade_date": "2026-10-13",
+    "batch": "0830",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "文化传媒",
-      "summary": "文化传媒 主题因市场强度和触发信号进入早盘观察。",
-      "score": 64.86,
+      "name": "CPO概念",
+      "summary": "CPO概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 74.08,
       "signals": [
-        "A股概念板块涨跌幅 2.22%，上涨家数 57"
+        "A股概念板块涨跌幅 2.51%，上涨家数 82"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "文化传媒 成交额 43415000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "CPO概念 成交额 6771886080000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -29,17 +29,17 @@
       ]
     },
     {
-      "name": "影视院线",
-      "summary": "影视院线 主题因市场强度和触发信号进入早盘观察。",
-      "score": 64.82,
+      "name": "光通信模块",
+      "summary": "光通信模块 主题因市场强度和触发信号进入早盘观察。",
+      "score": 73.76,
       "signals": [
-        "A股概念板块涨跌幅 3.79%，上涨家数 15"
+        "A股概念板块涨跌幅 2.47%，上涨家数 95"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "影视院线 成交额 13733000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "光通信模块 成交额 5765012736000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -49,17 +49,17 @@
       ]
     },
     {
-      "name": "银行",
-      "summary": "银行 主题因市场强度和触发信号进入早盘观察。",
-      "score": 57.88,
+      "name": "PCB",
+      "summary": "PCB 主题因市场强度和触发信号进入早盘观察。",
+      "score": 71.12,
       "signals": [
-        "A股概念板块涨跌幅 1.91%，上涨家数 42"
+        "A股概念板块涨跌幅 2.14%，上涨家数 147"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "银行 成交额 32375000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "PCB 成交额 5776128256000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -69,17 +69,17 @@
       ]
     },
     {
-      "name": "风电设备",
-      "summary": "风电设备 主题因市场强度和触发信号进入早盘观察。",
-      "score": 51.96,
+      "name": "内贸流通",
+      "summary": "内贸流通 主题因市场强度和触发信号进入早盘观察。",
+      "score": 66.48,
       "signals": [
-        "A股概念板块涨跌幅 1.92%，上涨家数 22"
+        "A股概念板块涨跌幅 1.56%，上涨家数 115"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "风电设备 成交额 14375000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "内贸流通 成交额 1281108864000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -89,17 +89,17 @@
       ]
     },
     {
-      "name": "电网设备",
-      "summary": "电网设备 主题因市场强度和触发信号进入早盘观察。",
-      "score": 44.16,
+      "name": "冰雪经济",
+      "summary": "冰雪经济 主题因市场强度和触发信号进入早盘观察。",
+      "score": 66.14,
       "signals": [
-        "A股概念板块涨跌幅 -0.18%，上涨家数 52"
+        "A股概念板块涨跌幅 3.28%，上涨家数 33"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "电网设备 成交额 23513000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "冰雪经济 成交额 311330880000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -111,32 +111,32 @@
   ],
   "candidates": [
     {
-      "code": "301052",
-      "name": "果麦文化",
+      "code": "301660",
+      "name": "N粤芯-U",
       "market": "创业板",
       "themes": [
-        "文化传媒"
+        "光通信模块"
       ],
-      "score": 124.26,
-      "reason": "果麦文化 与 文化传媒 主题相关，且交易活跃度进入候选池。",
+      "score": 881.06,
+      "reason": "N粤芯-U 与 光通信模块 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
+          "text": "进入 光通信模块 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 577637512，涨跌幅 20.01%",
+          "text": "成交额 7074403772，涨跌幅 223.15%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 69.51%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -145,7 +145,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
+          "text": "光通信模块 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -153,39 +153,39 @@
         }
       ],
       "snapshot": {
-        "pct_change": 20.008,
-        "amount": 577637512.0,
-        "turnover_rate": 0.0,
+        "pct_change": 223.15,
+        "amount": 7074403771.86,
+        "turnover_rate": 69.51,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "688517",
-      "name": "金冠电气",
-      "market": "科创板",
+      "code": "301010",
+      "name": "晶雪节能",
+      "market": "创业板",
       "themes": [
-        "电网设备"
+        "冰雪经济"
       ],
-      "score": 114.53,
-      "reason": "金冠电气 与 电网设备 主题相关，且交易活跃度进入候选池。",
+      "score": 162.53,
+      "reason": "晶雪节能 与 冰雪经济 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 电网设备 主题产业链候选",
+          "text": "进入 冰雪经济 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 461263412，涨跌幅 20.00%",
+          "text": "成交额 332490608，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 13.98%，量比 2.68",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -194,7 +194,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "电网设备 热度可能在开盘后快速回落"
+          "text": "冰雪经济 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -203,38 +203,46 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 461263412.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "amount": 332490607.58,
+        "turnover_rate": 13.98,
+        "volume_ratio": 2.68
       }
     },
     {
-      "code": "300781",
-      "name": "因赛集团",
+      "code": "301041",
+      "name": "金百泽",
       "market": "创业板",
       "themes": [
-        "文化传媒"
+        "CPO概念",
+        "PCB"
       ],
-      "score": 102.76,
-      "reason": "因赛集团 与 文化传媒 主题相关，且交易活跃度进入候选池。",
+      "score": 160.71,
+      "reason": "金百泽 与 CPO概念 / PCB 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
+          "text": "进入 CPO概念 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 528983243，涨跌幅 12.89%",
+          "text": "成交额 409816962，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 14.44%，量比 1.01",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 PCB 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -243,7 +251,60 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "PCB 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 409816962.01,
+        "turnover_rate": 14.44,
+        "volume_ratio": 1.01
+      }
+    },
+    {
+      "code": "688655",
+      "name": "迅捷兴",
+      "market": "科创板",
+      "themes": [
+        "PCB"
+      ],
+      "score": 160.0,
+      "reason": "迅捷兴 与 PCB 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 PCB 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1142677613，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 13.30%，量比 1.29",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "PCB 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -251,39 +312,100 @@
         }
       ],
       "snapshot": {
-        "pct_change": 12.894,
-        "amount": 528983243.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 20.0,
+        "amount": 1142677613.0,
+        "turnover_rate": 13.3,
+        "volume_ratio": 1.29
       }
     },
     {
-      "code": "603533",
-      "name": "掌阅科技",
+      "code": "300964",
+      "name": "本川智能",
+      "market": "创业板",
+      "themes": [
+        "CPO概念",
+        "PCB"
+      ],
+      "score": 152.03,
+      "reason": "本川智能 与 CPO概念 / PCB 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1448420161，涨跌幅 10.51%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 21.00%，量比 2.13",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 PCB 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "PCB 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.51,
+        "amount": 1448420161.3,
+        "turnover_rate": 21.0,
+        "volume_ratio": 2.13
+      }
+    },
+    {
+      "code": "600693",
+      "name": "东百集团",
       "market": "沪市主板",
       "themes": [
-        "文化传媒"
+        "内贸流通"
       ],
-      "score": 96.42,
-      "reason": "掌阅科技 与 文化传媒 主题相关，且交易活跃度进入候选池。",
+      "score": 151.15,
+      "reason": "东百集团 与 内贸流通 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
+          "text": "进入 内贸流通 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 2085223726，涨跌幅 9.98%",
+          "text": "成交额 2057430217，涨跌幅 10.02%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 19.74%，量比 3.61",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -292,7 +414,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
+          "text": "内贸流通 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -300,39 +422,149 @@
         }
       ],
       "snapshot": {
-        "pct_change": 9.984,
-        "amount": 2085223726.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 10.02,
+        "amount": 2057430217.0,
+        "turnover_rate": 19.74,
+        "volume_ratio": 3.61
       }
     },
     {
-      "code": "001330",
-      "name": "博纳影业",
+      "code": "300489",
+      "name": "光智科技",
+      "market": "创业板",
+      "themes": [
+        "光通信模块"
+      ],
+      "score": 146.53,
+      "reason": "光智科技 与 光通信模块 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 5253811942，涨跌幅 14.10%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 13.48%，量比 1.30",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 14.1,
+        "amount": 5253811942.23,
+        "turnover_rate": 13.48,
+        "volume_ratio": 1.3
+      }
+    },
+    {
+      "code": "688813",
+      "name": "泰金新能",
+      "market": "科创板",
+      "themes": [
+        "CPO概念",
+        "PCB"
+      ],
+      "score": 140.36,
+      "reason": "泰金新能 与 CPO概念 / PCB 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 741940718，涨跌幅 8.80%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 19.61%，量比 1.48",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 PCB 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "PCB 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.8,
+        "amount": 741940718.0,
+        "turnover_rate": 19.61,
+        "volume_ratio": 1.48
+      }
+    },
+    {
+      "code": "002980",
+      "name": "华盛昌",
       "market": "深市主板",
       "themes": [
-        "影视院线"
+        "光通信模块"
       ],
-      "score": 96.05,
-      "reason": "博纳影业 与 影视院线 主题相关，且交易活跃度进入候选池。",
+      "score": 139.52,
+      "reason": "华盛昌 与 光通信模块 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 影视院线 主题产业链候选",
+          "text": "进入 光通信模块 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1545969785，涨跌幅 10.04%",
+          "text": "成交额 1803850189，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 16.09%，量比 1.78",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -341,105 +573,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "影视院线 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.043,
-        "amount": 1545969785.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "000892",
-      "name": "欢瑞世纪",
-      "market": "深市主板",
-      "themes": [
-        "影视院线"
-      ],
-      "score": 95.87,
-      "reason": "欢瑞世纪 与 影视院线 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 影视院线 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1254202218，涨跌幅 10.10%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "影视院线 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.103,
-        "amount": 1254202218.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "601929",
-      "name": "吉视传媒",
-      "market": "沪市主板",
-      "themes": [
-        "文化传媒"
-      ],
-      "score": 95.76,
-      "reason": "吉视传媒 与 文化传媒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1387846264，涨跌幅 10.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
+          "text": "光通信模块 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -448,38 +582,38 @@
       ],
       "snapshot": {
         "pct_change": 10.0,
-        "amount": 1387846264.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "amount": 1803850188.83,
+        "turnover_rate": 16.09,
+        "volume_ratio": 1.78
       }
     },
     {
-      "code": "601811",
-      "name": "新华文轩",
-      "market": "沪市主板",
+      "code": "300522",
+      "name": "世名科技",
+      "market": "创业板",
       "themes": [
-        "文化传媒"
+        "PCB"
       ],
-      "score": 95.58,
-      "reason": "新华文轩 与 文化传媒 主题相关，且交易活跃度进入候选池。",
+      "score": 139.29,
+      "reason": "世名科技 与 PCB 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
+          "text": "进入 PCB 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1262967067，涨跌幅 9.99%",
+          "text": "成交额 1030297763，涨跌幅 6.89%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 22.20%，量比 1.54",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -488,116 +622,14 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
+          "text": "PCB 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 9.995,
-        "amount": 1262967067.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "002264",
-      "name": "新 华 都",
-      "market": "深市主板",
-      "themes": [
-        "文化传媒"
-      ],
-      "score": 95.36,
-      "reason": "新 华 都 与 文化传媒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1104492721，涨跌幅 10.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.0,
-        "amount": 1104492721.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "603230",
-      "name": "内蒙新华",
-      "market": "沪市主板",
-      "themes": [
-        "文化传媒"
-      ],
-      "score": 94.84,
-      "reason": "内蒙新华 与 文化传媒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 文化传媒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 818510828，涨跌幅 10.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "文化传媒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.0,
-        "amount": 818510828.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 6.89,
+        "amount": 1030297763.39,
+        "turnover_rate": 22.2,
+        "volume_ratio": 1.54
       }
     }
   ],
