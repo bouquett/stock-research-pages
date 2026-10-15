@@ -1,9 +1,9 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-15T12:55:57.404388+08:00",
+    "generated_at": "2026-10-15T13:22:33.526632+08:00",
     "trade_date": "2026-10-15",
-    "batch": "0830",
+    "batch": "0900",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
@@ -11,14 +11,14 @@
     {
       "name": "白酒",
       "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
-      "score": 46.04,
+      "score": 44.38,
       "signals": [
-        "A股概念板块涨跌幅 1.48%，上涨家数 14"
+        "A股概念板块涨跌幅 1.31%，上涨家数 13"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "白酒 成交额 10297000000",
+          "text": "白酒 成交额 11041000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -31,14 +31,14 @@
     {
       "name": "元件",
       "summary": "元件 主题因市场强度和触发信号进入早盘观察。",
-      "score": 36.18,
+      "score": 38.98,
       "signals": [
-        "A股概念板块涨跌幅 -0.24%，上涨家数 27"
+        "A股概念板块涨跌幅 -0.04%，上涨家数 31"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "元件 成交额 66270000000",
+          "text": "元件 成交额 72114000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -49,16 +49,16 @@
       ]
     },
     {
-      "name": "化学制药",
-      "summary": "化学制药 主题因市场强度和触发信号进入早盘观察。",
-      "score": 34.88,
+      "name": "证券",
+      "summary": "证券 主题因市场强度和触发信号进入早盘观察。",
+      "score": 29.4,
       "signals": [
-        "A股概念板块涨跌幅 -0.74%，上涨家数 36"
+        "A股概念板块涨跌幅 -0.45%，上涨家数 10"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "化学制药 成交额 28141000000",
+          "text": "证券 成交额 16590000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -71,14 +71,14 @@
     {
       "name": "文化传媒",
       "summary": "文化传媒 主题因市场强度和触发信号进入早盘观察。",
-      "score": 33.04,
+      "score": 28.82,
       "signals": [
-        "A股概念板块涨跌幅 -0.52%，上涨家数 24"
+        "A股概念板块涨跌幅 -1.01%，上涨家数 23"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "文化传媒 成交额 36702000000",
+          "text": "文化传媒 成交额 38958000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -89,16 +89,16 @@
       ]
     },
     {
-      "name": "医疗服务",
-      "summary": "医疗服务 主题因市场强度和触发信号进入早盘观察。",
-      "score": 30.16,
+      "name": "化学制药",
+      "summary": "化学制药 主题因市场强度和触发信号进入早盘观察。",
+      "score": 26.66,
       "signals": [
-        "A股概念板块涨跌幅 -0.43%，上涨家数 12"
+        "A股概念板块涨跌幅 -1.43%，上涨家数 27"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "医疗服务 成交额 16750000000",
+          "text": "化学制药 成交额 30784000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -117,7 +117,7 @@
       "themes": [
         "化学制药"
       ],
-      "score": 1028.42,
+      "score": 1450.11,
       "reason": "N联亚 与 化学制药 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -129,7 +129,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 2112058567，涨跌幅 325.14%",
+          "text": "成交额 2424775614，涨跌幅 466.86%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -153,57 +153,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 325.143,
-        "amount": 2112058567.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "300111",
-      "name": "向日葵",
-      "market": "创业板",
-      "themes": [
-        "化学制药"
-      ],
-      "score": 111.26,
-      "reason": "向日葵 与 化学制药 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 化学制药 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 696425795，涨跌幅 20.07%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "化学制药 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 20.065,
-        "amount": 696425795.0,
+        "pct_change": 466.857,
+        "amount": 2424775614.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -215,7 +166,7 @@
       "themes": [
         "元件"
       ],
-      "score": 111.15,
+      "score": 112.44,
       "reason": "金禄电子 与 元件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -227,7 +178,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 522177665，涨跌幅 20.00%",
+          "text": "成交额 530965582，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -252,31 +203,31 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 522177665.0,
+        "amount": 530965582.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "688265",
-      "name": "南模生物",
-      "market": "科创板",
+      "code": "300111",
+      "name": "向日葵",
+      "market": "创业板",
       "themes": [
-        "医疗服务"
+        "化学制药"
       ],
-      "score": 86.46,
-      "reason": "南模生物 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "score": 107.86,
+      "reason": "向日葵 与 化学制药 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
+          "text": "进入 化学制药 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 209193937，涨跌幅 13.20%",
+          "text": "成交额 824465060，涨跌幅 20.07%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -292,7 +243,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
+          "text": "化学制药 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -300,8 +251,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 13.202,
-        "amount": 209193937.0,
+        "pct_change": 20.065,
+        "amount": 824465060.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -313,7 +264,7 @@
       "themes": [
         "白酒"
       ],
-      "score": 84.88,
+      "score": 84.17,
       "reason": "皇台酒业 与 白酒 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -325,7 +276,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 324145426，涨跌幅 10.04%",
+          "text": "成交额 330521579，涨跌幅 10.04%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -350,56 +301,7 @@
       ],
       "snapshot": {
         "pct_change": 10.041,
-        "amount": 324145426.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "600812",
-      "name": "华北制药",
-      "market": "沪市主板",
-      "themes": [
-        "化学制药"
-      ],
-      "score": 82.71,
-      "reason": "华北制药 与 化学制药 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 化学制药 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1646494918，涨跌幅 10.05%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "化学制药 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.05,
-        "amount": 1646494918.0,
+        "amount": 330521579.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -411,7 +313,7 @@
       "themes": [
         "元件"
       ],
-      "score": 82.54,
+      "score": 83.9,
       "reason": "澳弘电子 与 元件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -423,7 +325,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 1155218148，涨跌幅 10.00%",
+          "text": "成交额 1226363705，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -448,7 +350,7 @@
       ],
       "snapshot": {
         "pct_change": 10.003,
-        "amount": 1155218148.0,
+        "amount": 1226363705.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -460,7 +362,7 @@
       "themes": [
         "元件"
       ],
-      "score": 81.25,
+      "score": 82.63,
       "reason": "天津普林 与 元件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -472,7 +374,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 566862184，涨跌幅 9.99%",
+          "text": "成交额 606526034，涨跌幅 9.99%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -497,7 +399,7 @@
       ],
       "snapshot": {
         "pct_change": 9.986,
-        "amount": 566862184.0,
+        "amount": 606526034.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -509,7 +411,7 @@
       "themes": [
         "元件"
       ],
-      "score": 80.88,
+      "score": 82.17,
       "reason": "骏亚科技 与 元件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -521,7 +423,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 450115137，涨跌幅 9.99%",
+          "text": "成交额 457766802，涨跌幅 9.99%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -546,20 +448,118 @@
       ],
       "snapshot": {
         "pct_change": 9.995,
-        "amount": 450115137.0,
+        "amount": 457766802.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "603230",
-      "name": "内蒙新华",
+      "code": "002815",
+      "name": "崇达技术",
+      "market": "深市主板",
+      "themes": [
+        "元件"
+      ],
+      "score": 81.35,
+      "reason": "崇达技术 与 元件 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 元件 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 293475822，涨跌幅 9.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "元件 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.981,
+        "amount": 293475822.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000823",
+      "name": "超声电子",
+      "market": "深市主板",
+      "themes": [
+        "元件"
+      ],
+      "score": 77.35,
+      "reason": "超声电子 与 元件 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 元件 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 4319270629，涨跌幅 7.09%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "元件 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.088,
+        "amount": 4319270629.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603999",
+      "name": "读者传媒",
       "market": "沪市主板",
       "themes": [
         "文化传媒"
       ],
-      "score": 80.5,
-      "reason": "内蒙新华 与 文化传媒 主题相关，且交易活跃度进入候选池。",
+      "score": 75.12,
+      "reason": "读者传媒 与 文化传媒 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
@@ -570,7 +570,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 808308348，涨跌幅 10.00%",
+          "text": "成交额 117807696，涨跌幅 9.96%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -594,8 +594,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 10.0,
-        "amount": 808308348.0,
+        "pct_change": 9.957,
+        "amount": 117807696.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
