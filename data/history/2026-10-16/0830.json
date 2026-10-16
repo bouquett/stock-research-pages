@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-10-16T12:46:34.239187+08:00",
+    "trade_date": "2026-10-16",
+    "batch": "0830",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "航天航空",
+      "summary": "航天航空 主题因市场强度和触发信号进入早盘观察。",
+      "score": 97.0,
+      "signals": [
+        "A股概念板块涨跌幅 6.20%，上涨家数 58"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "航天航空 成交额 1292076752000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "军民融合",
+      "summary": "军民融合 主题因市场强度和触发信号进入早盘观察。",
+      "score": 92.24,
+      "signals": [
+        "A股概念板块涨跌幅 4.78%，上涨家数 173"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "军民融合 成交额 3024341280000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "飞行汽车(eVTOL)",
+      "summary": "飞行汽车(eVTOL) 主题因市场强度和触发信号进入早盘观察。",
+      "score": 91.84,
+      "signals": [
+        "A股概念板块涨跌幅 4.73%，上涨家数 84"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "飞行汽车(eVTOL) 成交额 1035868512000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "卫星导航",
+      "summary": "卫星导航 主题因市场强度和触发信号进入早盘观察。",
+      "score": 89.78,
+      "signals": [
+        "A股概念板块涨跌幅 4.66%，上涨家数 75"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "卫星导航 成交额 1103690336000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "大飞机",
+      "summary": "大飞机 主题因市场强度和触发信号进入早盘观察。",
+      "score": 89.12,
+      "signals": [
+        "A股概念板块涨跌幅 4.39%，上涨家数 101"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "大飞机 成交额 1881472000000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "300411",
+      "name": "金盾股份",
+      "market": "创业板",
+      "themes": [
+        "飞行汽车(eVTOL)"
+      ],
+      "score": 197.9,
+      "reason": "金盾股份 与 飞行汽车(eVTOL) 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 飞行汽车(eVTOL) 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 279878698，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 9.97%，量比 10.71",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "飞行汽车(eVTOL) 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 279878698.5,
+        "turnover_rate": 9.97,
+        "volume_ratio": 10.71
+      }
+    },
+    {
+      "code": "300581",
+      "name": "晨曦航空",
+      "market": "创业板",
+      "themes": [
+        "航天航空",
+        "军民融合"
+      ],
+      "score": 185.64,
+      "reason": "晨曦航空 与 航天航空 / 军民融合 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 航天航空 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 498121910，涨跌幅 20.02%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 7.85%，量比 7.86",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 军民融合 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "航天航空 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "军民融合 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.02,
+        "amount": 498121909.9,
+        "turnover_rate": 7.85,
+        "volume_ratio": 7.86
+      }
+    },
+    {
+      "code": "300900",
+      "name": "广联航空",
+      "market": "创业板",
+      "themes": [
+        "航天航空",
+        "军民融合",
+        "飞行汽车(eVTOL)",
+        "大飞机"
+      ],
+      "score": 182.86,
+      "reason": "广联航空 与 航天航空 / 军民融合 / 飞行汽车(eVTOL) / 大飞机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 航天航空 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 615696967，涨跌幅 19.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 11.52%，量比 5.26",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 军民融合 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 飞行汽车(eVTOL) 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 大飞机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "航天航空 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "军民融合 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "飞行汽车(eVTOL) 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "大飞机 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.99,
+        "amount": 615696966.97,
+        "turnover_rate": 11.52,
+        "volume_ratio": 5.26
+      }
+    },
+    {
+      "code": "688592",
+      "name": "司南导航",
+      "market": "科创板",
+      "themes": [
+        "卫星导航"
+      ],
+      "score": 177.75,
+      "reason": "司南导航 与 卫星导航 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 卫星导航 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 100252273，涨跌幅 19.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 7.48%，量比 7.61",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "卫星导航 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.98,
+        "amount": 100252273.0,
+        "turnover_rate": 7.48,
+        "volume_ratio": 7.61
+      }
+    },
+    {
+      "code": "688385",
+      "name": "复旦微电",
+      "market": "科创板",
+      "themes": [
+        "卫星导航"
+      ],
+      "score": 173.6,
+      "reason": "复旦微电 与 卫星导航 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 卫星导航 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1868303776，涨跌幅 19.89%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 6.48%，量比 5.87",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "卫星导航 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.89,
+        "amount": 1868303776.0,
+        "turnover_rate": 6.48,
+        "volume_ratio": 5.87
+      }
+    },
+    {
+      "code": "300045",
+      "name": "华力创通",
+      "market": "创业板",
+      "themes": [
+        "军民融合",
+        "卫星导航",
+        "大飞机"
+      ],
+      "score": 166.09,
+      "reason": "华力创通 与 军民融合 / 卫星导航 / 大飞机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 军民融合 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 632368978，涨跌幅 20.04%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 10.45%，量比 2.09",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 卫星导航 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 大飞机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "军民融合 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "卫星导航 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "大飞机 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.04,
+        "amount": 632368978.22,
+        "turnover_rate": 10.45,
+        "volume_ratio": 2.09
+      }
+    },
+    {
+      "code": "300719",
+      "name": "安达维尔",
+      "market": "创业板",
+      "themes": [
+        "航天航空",
+        "军民融合",
+        "大飞机"
+      ],
+      "score": 151.99,
+      "reason": "安达维尔 与 航天航空 / 军民融合 / 大飞机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 航天航空 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 150103724，涨跌幅 12.13%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 6.90%，量比 6.36",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 军民融合 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 大飞机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "航天航空 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "军民融合 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "大飞机 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.13,
+        "amount": 150103724.5,
+        "turnover_rate": 6.9,
+        "volume_ratio": 6.36
+      }
+    },
+    {
+      "code": "002510",
+      "name": "天汽模",
+      "market": "深市主板",
+      "themes": [
+        "军民融合",
+        "飞行汽车(eVTOL)",
+        "大飞机"
+      ],
+      "score": 148.2,
+      "reason": "天汽模 与 军民融合 / 飞行汽车(eVTOL) / 大飞机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 军民融合 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 329998765，涨跌幅 9.96%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 5.63%，量比 7.87",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 飞行汽车(eVTOL) 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 大飞机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "军民融合 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "飞行汽车(eVTOL) 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "大飞机 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.96,
+        "amount": 329998765.12,
+        "turnover_rate": 5.63,
+        "volume_ratio": 7.87
+      }
+    },
+    {
+      "code": "600391",
+      "name": "航发科技",
+      "market": "沪市主板",
+      "themes": [
+        "航天航空",
+        "大飞机"
+      ],
+      "score": 142.46,
+      "reason": "航发科技 与 航天航空 / 大飞机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 航天航空 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1340431542，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 9.61%，量比 3.27",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 大飞机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "航天航空 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "大飞机 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 1340431542.0,
+        "turnover_rate": 9.61,
+        "volume_ratio": 3.27
+      }
+    },
+    {
+      "code": "300722",
+      "name": "新余国科",
+      "market": "创业板",
+      "themes": [
+        "航天航空",
+        "军民融合"
+      ],
+      "score": 140.69,
+      "reason": "新余国科 与 航天航空 / 军民融合 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 航天航空 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 202050104，涨跌幅 9.64%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 3.29%，量比 7.08",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 军民融合 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "航天航空 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "军民融合 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.64,
+        "amount": 202050103.91,
+        "turnover_rate": 3.29,
+        "volume_ratio": 7.08
+      }
+    }
+  ],
+  "warnings": []
+}
