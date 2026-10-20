@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-10-20T13:28:26.642639+08:00",
+    "trade_date": "2026-10-20",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "自动化设备",
+      "summary": "自动化设备 主题因市场强度和触发信号进入早盘观察。",
+      "score": 81.84,
+      "signals": [
+        "A股概念板块涨跌幅 3.48%，上涨家数 90"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "自动化设备 成交额 29017000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "消费电子",
+      "summary": "消费电子 主题因市场强度和触发信号进入早盘观察。",
+      "score": 73.92,
+      "signals": [
+        "A股概念板块涨跌幅 2.49%，上涨家数 85"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "消费电子 成交额 29455000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "汽车零部件",
+      "summary": "汽车零部件 主题因市场强度和触发信号进入早盘观察。",
+      "score": 72.0,
+      "signals": [
+        "隔夜信号：隔夜 TSLA +3.76%，映射：汽车零部件 机器人 锂电池",
+        "A股概念板块涨跌幅 1.31%，上涨家数 191"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "隔夜 TSLA +3.76%，映射：汽车零部件 机器人 锂电池",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "汽车零部件 成交额 38068000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "半导体",
+      "summary": "半导体 主题因市场强度和触发信号进入早盘观察。",
+      "score": 71.52,
+      "signals": [
+        "A股概念板块涨跌幅 2.19%，上涨家数 153"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "半导体 成交额 137728000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "软件开发",
+      "summary": "软件开发 主题因市场强度和触发信号进入早盘观察。",
+      "score": 69.12,
+      "signals": [
+        "A股概念板块涨跌幅 1.89%，上涨家数 109"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "软件开发 成交额 24762000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "300115",
+      "name": "长盈精密",
+      "market": "创业板",
+      "themes": [
+        "消费电子"
+      ],
+      "score": 130.47,
+      "reason": "长盈精密 与 消费电子 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 消费电子 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2033540984，涨跌幅 19.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "消费电子 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.99,
+        "amount": 2033540984.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688608",
+      "name": "恒玄科技",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 124.79,
+      "reason": "恒玄科技 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1056590431，涨跌幅 18.84%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 18.837,
+        "amount": 1056590431.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688689",
+      "name": "银河微电",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 122.47,
+      "reason": "银河微电 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 503640363，涨跌幅 18.49%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 18.493,
+        "amount": 503640363.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300461",
+      "name": "田中精机",
+      "market": "创业板",
+      "themes": [
+        "自动化设备"
+      ],
+      "score": 119.46,
+      "reason": "田中精机 与 自动化设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 自动化设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 463574197，涨跌幅 15.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "自动化设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 15.989,
+        "amount": 463574197.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688306",
+      "name": "均普智能",
+      "market": "科创板",
+      "themes": [
+        "自动化设备"
+      ],
+      "score": 115.41,
+      "reason": "均普智能 与 自动化设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 自动化设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 282923716，涨跌幅 14.93%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "自动化设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 14.925,
+        "amount": 282923716.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688018",
+      "name": "乐鑫科技",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 112.98,
+      "reason": "乐鑫科技 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1939026392，涨跌幅 14.55%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 14.549,
+        "amount": 1939026392.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688686",
+      "name": "奥普特",
+      "market": "科创板",
+      "themes": [
+        "自动化设备"
+      ],
+      "score": 111.59,
+      "reason": "奥普特 与 自动化设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 自动化设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 396432139，涨跌幅 13.46%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "自动化设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 13.458,
+        "amount": 396432139.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688400",
+      "name": "凌云光",
+      "market": "科创板",
+      "themes": [
+        "自动化设备"
+      ],
+      "score": 102.97,
+      "reason": "凌云光 与 自动化设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 自动化设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 721840441，涨跌幅 10.24%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "自动化设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.236,
+        "amount": 721840441.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "301550",
+      "name": "斯菱智驱",
+      "market": "创业板",
+      "themes": [
+        "汽车零部件"
+      ],
+      "score": 101.35,
+      "reason": "斯菱智驱 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 汽车零部件 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1715885889，涨跌幅 10.67%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "汽车零部件 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.669,
+        "amount": 1715885889.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688591",
+      "name": "泰凌微",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 101.25,
+      "reason": "泰凌微 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 216178144，涨跌幅 11.91%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 11.909,
+        "amount": 216178144.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    }
+  ],
+  "warnings": []
+}
