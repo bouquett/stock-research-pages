@@ -1,25 +1,25 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-21T13:29:13.540187+08:00",
-    "trade_date": "2026-10-21",
-    "batch": "0900",
+    "generated_at": "2026-10-22T13:07:30.034313+08:00",
+    "trade_date": "2026-10-22",
+    "batch": "0830",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "智慧政务",
-      "summary": "智慧政务 主题因市场强度和触发信号进入早盘观察。",
-      "score": 71.22,
+      "name": "电机",
+      "summary": "电机 主题因市场强度和触发信号进入早盘观察。",
+      "score": 76.95,
       "signals": [
-        "A股概念板块涨跌幅 2.19%，上涨家数 79"
+        "A股概念板块涨跌幅 5.10%，上涨家数 23"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "智慧政务 成交额 684301968000",
-          "source_name": "akshare:stock_board_concept_name_em",
+          "text": "电机 成交额 5615000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -29,17 +29,25 @@
       ]
     },
     {
-      "name": "云计算",
-      "summary": "云计算 主题因市场强度和触发信号进入早盘观察。",
-      "score": 70.8,
+      "name": "汽车零部件",
+      "summary": "汽车零部件 主题因市场强度和触发信号进入早盘观察。",
+      "score": 57.39,
       "signals": [
-        "A股概念板块涨跌幅 2.10%，上涨家数 125"
+        "隔夜信号：隔夜 TSLA +3.41%，映射：汽车零部件 机器人 锂电池",
+        "A股概念板块涨跌幅 -0.43%，上涨家数 96"
       ],
       "evidence": [
         {
+          "kind": "overnight",
+          "text": "隔夜 TSLA +3.41%，映射：汽车零部件 机器人 锂电池",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
           "kind": "market",
-          "text": "云计算 成交额 6559951104000",
-          "source_name": "akshare:stock_board_concept_name_em",
+          "text": "汽车零部件 成交额 29615000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -49,17 +57,17 @@
       ]
     },
     {
-      "name": "互联网服务",
-      "summary": "互联网服务 主题因市场强度和触发信号进入早盘观察。",
-      "score": 69.68,
+      "name": "通用设备",
+      "summary": "通用设备 主题因市场强度和触发信号进入早盘观察。",
+      "score": 46.22,
       "signals": [
-        "A股概念板块涨跌幅 1.96%，上涨家数 118"
+        "A股概念板块涨跌幅 -0.71%，上涨家数 73"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "互联网服务 成交额 1737464256000",
-          "source_name": "akshare:stock_board_concept_name_em",
+          "text": "通用设备 成交额 33741000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -69,17 +77,17 @@
       ]
     },
     {
-      "name": "东方财富热股",
-      "summary": "东方财富热股 主题因市场强度和触发信号进入早盘观察。",
-      "score": 68.68,
+      "name": "工程机械",
+      "summary": "工程机械 主题因市场强度和触发信号进入早盘观察。",
+      "score": 46.01,
       "signals": [
-        "A股概念板块涨跌幅 2.36%，上涨家数 66"
+        "A股概念板块涨跌幅 1.25%，上涨家数 24"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "东方财富热股 成交额 9006390016000",
-          "source_name": "akshare:stock_board_concept_name_em",
+          "text": "工程机械 成交额 4009000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -89,17 +97,17 @@
       ]
     },
     {
-      "name": "数字经济",
-      "summary": "数字经济 主题因市场强度和触发信号进入早盘观察。",
-      "score": 68.32,
+      "name": "专用设备",
+      "summary": "专用设备 主题因市场强度和触发信号进入早盘观察。",
+      "score": 37.4,
       "signals": [
-        "A股概念板块涨跌幅 1.79%，上涨家数 150"
+        "A股概念板块涨跌幅 -1.10%，上涨家数 54"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "数字经济 成交额 1810195936000",
-          "source_name": "akshare:stock_board_concept_name_em",
+          "text": "专用设备 成交额 19426000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -111,32 +119,32 @@
   ],
   "candidates": [
     {
-      "code": "001239",
-      "name": "永达股份",
-      "market": "深市主板",
+      "code": "301023",
+      "name": "奕帆传动",
+      "market": "创业板",
       "themes": [
-        "东方财富热股"
+        "电机"
       ],
-      "score": 195.94,
-      "reason": "永达股份 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "score": 128.58,
+      "reason": "奕帆传动 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 东方财富热股 主题产业链候选",
+          "text": "进入 电机 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 370582827，涨跌幅 10.00%",
+          "text": "成交额 315771564，涨跌幅 19.98%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 22.50%，量比 13.94",
+          "text": "换手率 0.00%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -145,7 +153,252 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "东方财富热股 热度可能在开盘后快速回落"
+          "text": "电机 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.985,
+        "amount": 315771564.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "301502",
+      "name": "华阳智能",
+      "market": "创业板",
+      "themes": [
+        "电机"
+      ],
+      "score": 127.47,
+      "reason": "华阳智能 与 电机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 162854654，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电机 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 162854654.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603728",
+      "name": "鸣志电器",
+      "market": "沪市主板",
+      "themes": [
+        "电机"
+      ],
+      "score": 100.17,
+      "reason": "鸣志电器 与 电机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 772814754，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电机 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.996,
+        "amount": 772814754.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "003021",
+      "name": "兆威机电",
+      "market": "深市主板",
+      "themes": [
+        "电机"
+      ],
+      "score": 99.48,
+      "reason": "兆威机电 与 电机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 516545584，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电机 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.999,
+        "amount": 516545584.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002249",
+      "name": "大洋电机",
+      "market": "深市主板",
+      "themes": [
+        "电机"
+      ],
+      "score": 99.44,
+      "reason": "大洋电机 与 电机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 532435105，涨跌幅 9.97%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电机 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.969,
+        "amount": 532435105.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603350",
+      "name": "安乃达",
+      "market": "沪市主板",
+      "themes": [
+        "电机"
+      ],
+      "score": 95.98,
+      "reason": "安乃达 与 电机 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电机 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 68727526，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电机 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -154,54 +407,38 @@
       ],
       "snapshot": {
         "pct_change": 10.0,
-        "amount": 370582827.25,
-        "turnover_rate": 22.5,
-        "volume_ratio": 13.94
+        "amount": 68727526.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
       }
     },
     {
-      "code": "301313",
-      "name": "凡拓数创",
+      "code": "301413",
+      "name": "安培龙",
       "market": "创业板",
       "themes": [
-        "智慧政务",
-        "东方财富热股",
-        "数字经济"
+        "通用设备"
       ],
-      "score": 191.53,
-      "reason": "凡拓数创 与 智慧政务 / 东方财富热股 / 数字经济 主题相关，且交易活跃度进入候选池。",
+      "score": 94.85,
+      "reason": "安培龙 与 通用设备 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 智慧政务 主题产业链候选",
+          "text": "进入 通用设备 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1503870023，涨跌幅 13.89%",
+          "text": "成交额 646126176，涨跌幅 12.94%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 36.59%，量比 1.98",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 东方财富热股 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 数字经济 主题产业链候选",
+          "text": "换手率 0.00%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -210,55 +447,47 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "智慧政务 热度可能在开盘后快速回落"
+          "text": "通用设备 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "东方财富热股 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "theme",
-          "text": "数字经济 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 13.89,
-        "amount": 1503870022.83,
-        "turnover_rate": 36.59,
-        "volume_ratio": 1.98
+        "pct_change": 12.936,
+        "amount": 646126176.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
       }
     },
     {
-      "code": "300006",
-      "name": "莱美药业",
-      "market": "创业板",
+      "code": "000678",
+      "name": "襄阳轴承",
+      "market": "深市主板",
       "themes": [
-        "东方财富热股"
+        "汽车零部件"
       ],
-      "score": 175.44,
-      "reason": "莱美药业 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "score": 91.37,
+      "reason": "襄阳轴承 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 东方财富热股 主题产业链候选",
+          "text": "进入 汽车零部件 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1925903747，涨跌幅 20.00%",
+          "text": "成交额 820321708，涨跌幅 9.96%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 21.02%，量比 1.34",
+          "text": "换手率 0.00%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -267,7 +496,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "东方财富热股 热度可能在开盘后快速回落"
+          "text": "汽车零部件 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -275,161 +504,39 @@
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 1925903747.38,
-        "turnover_rate": 21.02,
-        "volume_ratio": 1.34
+        "pct_change": 9.963,
+        "amount": 820321708.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
       }
     },
     {
-      "code": "688500",
-      "name": "慧辰股份",
-      "market": "科创板",
-      "themes": [
-        "智慧政务",
-        "互联网服务"
-      ],
-      "score": 174.86,
-      "reason": "慧辰股份 与 智慧政务 / 互联网服务 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 智慧政务 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 276840435，涨跌幅 20.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 10.56%，量比 6.98",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 互联网服务 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "智慧政务 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "互联网服务 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 20.0,
-        "amount": 276840435.0,
-        "turnover_rate": 10.56,
-        "volume_ratio": 6.98
-      }
-    },
-    {
-      "code": "301159",
-      "name": "三维天地",
-      "market": "创业板",
-      "themes": [
-        "云计算",
-        "数字经济"
-      ],
-      "score": 170.68,
-      "reason": "三维天地 与 云计算 / 数字经济 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 云计算 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 254200799，涨跌幅 20.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 13.54%，量比 4.53",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 数字经济 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "云计算 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "数字经济 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 20.0,
-        "amount": 254200798.84,
-        "turnover_rate": 13.54,
-        "volume_ratio": 4.53
-      }
-    },
-    {
-      "code": "605488",
-      "name": "福莱新材",
+      "code": "600698",
+      "name": "湖南天雁",
       "market": "沪市主板",
       "themes": [
-        "东方财富热股"
+        "汽车零部件"
       ],
-      "score": 169.05,
-      "reason": "福莱新材 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "score": 90.56,
+      "reason": "湖南天雁 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 东方财富热股 主题产业链候选",
+          "text": "进入 汽车零部件 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1375002952，涨跌幅 7.03%",
+          "text": "成交额 482409087，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 14.05%，量比 13.10",
+          "text": "换手率 0.00%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -438,7 +545,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "东方财富热股 热度可能在开盘后快速回落"
+          "text": "汽车零部件 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -446,39 +553,39 @@
         }
       ],
       "snapshot": {
-        "pct_change": 7.03,
-        "amount": 1375002952.0,
-        "turnover_rate": 14.05,
-        "volume_ratio": 13.1
+        "pct_change": 10.0,
+        "amount": 482409087.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
       }
     },
     {
-      "code": "301102",
-      "name": "兆讯传媒",
-      "market": "创业板",
+      "code": "603089",
+      "name": "正裕工业",
+      "market": "沪市主板",
       "themes": [
-        "数字经济"
+        "汽车零部件"
       ],
-      "score": 168.54,
-      "reason": "兆讯传媒 与 数字经济 主题相关，且交易活跃度进入候选池。",
+      "score": 88.7,
+      "reason": "正裕工业 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 数字经济 主题产业链候选",
+          "text": "进入 汽车零部件 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 329839286，涨跌幅 18.30%",
+          "text": "成交额 174507820，涨跌幅 9.97%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 7.31%，量比 8.55",
+          "text": "换手率 0.00%，量比 0.00",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -487,7 +594,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "数字经济 热度可能在开盘后快速回落"
+          "text": "汽车零部件 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -495,185 +602,10 @@
         }
       ],
       "snapshot": {
-        "pct_change": 18.3,
-        "amount": 329839285.99,
-        "turnover_rate": 7.31,
-        "volume_ratio": 8.55
-      }
-    },
-    {
-      "code": "000530",
-      "name": "冰山冷热",
-      "market": "深市主板",
-      "themes": [
-        "东方财富热股"
-      ],
-      "score": 160.0,
-      "reason": "冰山冷热 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 东方财富热股 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1792122190，涨跌幅 4.28%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 36.20%，量比 1.71",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "东方财富热股 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 4.28,
-        "amount": 1792122190.27,
-        "turnover_rate": 36.2,
-        "volume_ratio": 1.71
-      }
-    },
-    {
-      "code": "003029",
-      "name": "吉大正元",
-      "market": "深市主板",
-      "themes": [
-        "云计算",
-        "东方财富热股",
-        "数字经济"
-      ],
-      "score": 155.19,
-      "reason": "吉大正元 与 云计算 / 东方财富热股 / 数字经济 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 云计算 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1479772470，涨跌幅 3.01%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 30.97%，量比 3.92",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 东方财富热股 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 数字经济 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "云计算 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "theme",
-          "text": "东方财富热股 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "theme",
-          "text": "数字经济 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 3.01,
-        "amount": 1479772469.78,
-        "turnover_rate": 30.97,
-        "volume_ratio": 3.92
-      }
-    },
-    {
-      "code": "300300",
-      "name": "海峡创新",
-      "market": "创业板",
-      "themes": [
-        "互联网服务",
-        "数字经济"
-      ],
-      "score": 151.1,
-      "reason": "海峡创新 与 互联网服务 / 数字经济 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 互联网服务 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1490153008，涨跌幅 11.25%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 21.19%，量比 1.73",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 数字经济 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "互联网服务 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "数字经济 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 11.25,
-        "amount": 1490153008.08,
-        "turnover_rate": 21.19,
-        "volume_ratio": 1.73
+        "pct_change": 9.969,
+        "amount": 174507820.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
       }
     }
   ],
