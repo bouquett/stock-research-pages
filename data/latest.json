@@ -1,9 +1,9 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-22T13:07:30.034313+08:00",
+    "generated_at": "2026-10-22T13:33:24.739248+08:00",
     "trade_date": "2026-10-22",
-    "batch": "0830",
+    "batch": "0900",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
@@ -11,14 +11,14 @@
     {
       "name": "电机",
       "summary": "电机 主题因市场强度和触发信号进入早盘观察。",
-      "score": 76.95,
+      "score": 74.36,
       "signals": [
-        "A股概念板块涨跌幅 5.10%，上涨家数 23"
+        "A股概念板块涨跌幅 4.84%，上涨家数 21"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "电机 成交额 5615000000",
+          "text": "电机 成交额 6017000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -31,10 +31,10 @@
     {
       "name": "汽车零部件",
       "summary": "汽车零部件 主题因市场强度和触发信号进入早盘观察。",
-      "score": 57.39,
+      "score": 51.01,
       "signals": [
         "隔夜信号：隔夜 TSLA +3.41%，映射：汽车零部件 机器人 锂电池",
-        "A股概念板块涨跌幅 -0.43%，上涨家数 96"
+        "A股概念板块涨跌幅 -0.89%，上涨家数 71"
       ],
       "evidence": [
         {
@@ -46,27 +46,7 @@
         },
         {
           "kind": "market",
-          "text": "汽车零部件 成交额 29615000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        "主题热度可能在开盘后快速变化"
-      ]
-    },
-    {
-      "name": "通用设备",
-      "summary": "通用设备 主题因市场强度和触发信号进入早盘观察。",
-      "score": 46.22,
-      "signals": [
-        "A股概念板块涨跌幅 -0.71%，上涨家数 73"
-      ],
-      "evidence": [
-        {
-          "kind": "market",
-          "text": "通用设备 成交额 33741000000",
+          "text": "汽车零部件 成交额 32137000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -79,14 +59,34 @@
     {
       "name": "工程机械",
       "summary": "工程机械 主题因市场强度和触发信号进入早盘观察。",
-      "score": 46.01,
+      "score": 43.36,
       "signals": [
-        "A股概念板块涨跌幅 1.25%，上涨家数 24"
+        "A股概念板块涨跌幅 0.98%，上涨家数 22"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "工程机械 成交额 4009000000",
+          "text": "工程机械 成交额 4372000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "通用设备",
+      "summary": "通用设备 主题因市场强度和触发信号进入早盘观察。",
+      "score": 37.36,
+      "signals": [
+        "A股概念板块涨跌幅 -1.18%，上涨家数 56"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "通用设备 成交额 36307000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -99,14 +99,14 @@
     {
       "name": "专用设备",
       "summary": "专用设备 主题因市场强度和触发信号进入早盘观察。",
-      "score": 37.4,
+      "score": 31.08,
       "signals": [
-        "A股概念板块涨跌幅 -1.10%，上涨家数 54"
+        "A股概念板块涨跌幅 -1.59%，上涨家数 46"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "专用设备 成交额 19426000000",
+          "text": "专用设备 成交额 21357000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -125,7 +125,7 @@
       "themes": [
         "电机"
       ],
-      "score": 128.58,
+      "score": 127.46,
       "reason": "奕帆传动 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -137,7 +137,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 315771564，涨跌幅 19.98%",
+          "text": "成交额 324247837，涨跌幅 19.98%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -162,7 +162,7 @@
       ],
       "snapshot": {
         "pct_change": 19.985,
-        "amount": 315771564.0,
+        "amount": 324247837.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -174,7 +174,7 @@
       "themes": [
         "电机"
       ],
-      "score": 127.47,
+      "score": 126.32,
       "reason": "华阳智能 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -186,7 +186,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 162854654，涨跌幅 20.00%",
+          "text": "成交额 164114906，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -211,7 +211,7 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 162854654.0,
+        "amount": 164114906.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -223,7 +223,7 @@
       "themes": [
         "电机"
       ],
-      "score": 100.17,
+      "score": 99.26,
       "reason": "鸣志电器 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -235,7 +235,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 772814754，涨跌幅 10.00%",
+          "text": "成交额 895522596，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -260,7 +260,7 @@
       ],
       "snapshot": {
         "pct_change": 9.996,
-        "amount": 772814754.0,
+        "amount": 895522596.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -272,7 +272,7 @@
       "themes": [
         "电机"
       ],
-      "score": 99.48,
+      "score": 98.45,
       "reason": "兆威机电 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -284,7 +284,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 516545584，涨跌幅 10.00%",
+          "text": "成交额 558107160，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -309,7 +309,56 @@
       ],
       "snapshot": {
         "pct_change": 9.999,
-        "amount": 516545584.0,
+        "amount": 558107160.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "301413",
+      "name": "安培龙",
+      "market": "创业板",
+      "themes": [
+        "通用设备"
+      ],
+      "score": 98.37,
+      "reason": "安培龙 与 通用设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 通用设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 725400936，涨跌幅 15.37%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "通用设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 15.373,
+        "amount": 725400936.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -321,7 +370,7 @@
       "themes": [
         "电机"
       ],
-      "score": 99.44,
+      "score": 98.33,
       "reason": "大洋电机 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -333,7 +382,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 532435105，涨跌幅 9.97%",
+          "text": "成交额 550006739，涨跌幅 9.97%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -358,7 +407,7 @@
       ],
       "snapshot": {
         "pct_change": 9.969,
-        "amount": 532435105.0,
+        "amount": 550006739.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -370,7 +419,7 @@
       "themes": [
         "电机"
       ],
-      "score": 95.98,
+      "score": 94.86,
       "reason": "安乃达 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -382,7 +431,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 68727526，涨跌幅 10.00%",
+          "text": "成交额 70546442，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -407,56 +456,7 @@
       ],
       "snapshot": {
         "pct_change": 10.0,
-        "amount": 68727526.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "301413",
-      "name": "安培龙",
-      "market": "创业板",
-      "themes": [
-        "通用设备"
-      ],
-      "score": 94.85,
-      "reason": "安培龙 与 通用设备 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 通用设备 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 646126176，涨跌幅 12.94%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "通用设备 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 12.936,
-        "amount": 646126176.0,
+        "amount": 70546442.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -468,7 +468,7 @@
       "themes": [
         "汽车零部件"
       ],
-      "score": 91.37,
+      "score": 88.51,
       "reason": "襄阳轴承 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -480,7 +480,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 820321708，涨跌幅 9.96%",
+          "text": "成交额 827806774，涨跌幅 9.96%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -505,7 +505,7 @@
       ],
       "snapshot": {
         "pct_change": 9.963,
-        "amount": 820321708.0,
+        "amount": 827806774.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -517,7 +517,7 @@
       "themes": [
         "汽车零部件"
       ],
-      "score": 90.56,
+      "score": 87.78,
       "reason": "湖南天雁 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -529,7 +529,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 482409087，涨跌幅 10.00%",
+          "text": "成交额 507560495，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -554,31 +554,31 @@
       ],
       "snapshot": {
         "pct_change": 10.0,
-        "amount": 482409087.0,
+        "amount": 507560495.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "603089",
-      "name": "正裕工业",
+      "code": "603370",
+      "name": "华新精科",
       "market": "沪市主板",
       "themes": [
-        "汽车零部件"
+        "电机"
       ],
-      "score": 88.7,
-      "reason": "正裕工业 与 汽车零部件 主题相关，且交易活跃度进入候选池。",
+      "score": 87.23,
+      "reason": "华新精科 与 电机 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 汽车零部件 主题产业链候选",
+          "text": "进入 电机 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 174507820，涨跌幅 9.97%",
+          "text": "成交额 125295509，涨跌幅 7.13%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -594,7 +594,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "汽车零部件 热度可能在开盘后快速回落"
+          "text": "电机 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -602,8 +602,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 9.969,
-        "amount": 174507820.0,
+        "pct_change": 7.126,
+        "amount": 125295509.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
