@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-10-23T13:07:23.932209+08:00",
+    "trade_date": "2026-10-23",
+    "batch": "0830",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "零售",
+      "summary": "零售 主题因市场强度和触发信号进入早盘观察。",
+      "score": 47.64,
+      "signals": [
+        "A股概念板块涨跌幅 0.72%，上涨家数 40"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "零售 成交额 9115000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "白酒",
+      "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
+      "score": 47.28,
+      "signals": [
+        "A股概念板块涨跌幅 1.56%，上涨家数 16"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "白酒 成交额 11071000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "证券",
+      "summary": "证券 主题因市场强度和触发信号进入早盘观察。",
+      "score": 45.58,
+      "signals": [
+        "A股概念板块涨跌幅 0.71%，上涨家数 33"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "证券 成交额 18843000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "保险",
+      "summary": "保险 主题因市场强度和触发信号进入早盘观察。",
+      "score": 44.03,
+      "signals": [
+        "A股概念板块涨跌幅 1.65%，上涨家数 5"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "保险 成交额 5995000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "工程机械",
+      "summary": "工程机械 主题因市场强度和触发信号进入早盘观察。",
+      "score": 42.3,
+      "signals": [
+        "A股概念板块涨跌幅 0.69%，上涨家数 25"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "工程机械 成交额 5737000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "600785",
+      "name": "新华百货",
+      "market": "沪市主板",
+      "themes": [
+        "零售"
+      ],
+      "score": 86.59,
+      "reason": "新华百货 与 零售 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 零售 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 633302763，涨跌幅 9.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "零售 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.982,
+        "amount": 633302763.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002945",
+      "name": "华林证券",
+      "market": "深市主板",
+      "themes": [
+        "证券"
+      ],
+      "score": 86.19,
+      "reason": "华林证券 与 证券 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 证券 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 790833048，涨跌幅 10.03%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "证券 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.029,
+        "amount": 790833048.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600865",
+      "name": "百大集团",
+      "market": "沪市主板",
+      "themes": [
+        "零售"
+      ],
+      "score": 85.92,
+      "reason": "百大集团 与 零售 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 零售 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 447152494，涨跌幅 9.96%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "零售 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.96,
+        "amount": 447152494.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600838",
+      "name": "上海九百",
+      "market": "沪市主板",
+      "themes": [
+        "零售"
+      ],
+      "score": 84.75,
+      "reason": "上海九百 与 零售 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 零售 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 212372215，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "零售 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 212372215.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603280",
+      "name": "南方路机",
+      "market": "沪市主板",
+      "themes": [
+        "工程机械"
+      ],
+      "score": 81.31,
+      "reason": "南方路机 与 工程机械 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 工程机械 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 114773972，涨跌幅 10.01%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "工程机械 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.014,
+        "amount": 114773972.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000759",
+      "name": "中百集团",
+      "market": "深市主板",
+      "themes": [
+        "零售"
+      ],
+      "score": 76.76,
+      "reason": "中百集团 与 零售 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 零售 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 384706489，涨跌幅 6.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "零售 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 6.993,
+        "amount": 384706489.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000528",
+      "name": "柳 工",
+      "market": "深市主板",
+      "themes": [
+        "工程机械"
+      ],
+      "score": 71.77,
+      "reason": "柳 工 与 工程机械 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 工程机械 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 709758816，涨跌幅 5.78%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "工程机械 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 5.779,
+        "amount": 709758816.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600621",
+      "name": "华鑫股份",
+      "market": "沪市主板",
+      "themes": [
+        "证券"
+      ],
+      "score": 71.19,
+      "reason": "华鑫股份 与 证券 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 证券 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 906277030，涨跌幅 4.95%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "证券 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 4.951,
+        "amount": 906277030.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300059",
+      "name": "东方财富",
+      "market": "创业板",
+      "themes": [
+        "证券"
+      ],
+      "score": 69.63,
+      "reason": "东方财富 与 证券 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 证券 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3805954657，涨跌幅 3.60%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "证券 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 3.6,
+        "amount": 3805954657.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000596",
+      "name": "古井贡酒",
+      "market": "深市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 68.45,
+      "reason": "古井贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 314993406，涨跌幅 4.39%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 4.393,
+        "amount": 314993406.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    }
+  ],
+  "warnings": []
+}
