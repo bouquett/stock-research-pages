@@ -1,9 +1,9 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-26T13:04:40.132031+08:00",
+    "generated_at": "2026-10-26T13:32:05.661098+08:00",
     "trade_date": "2026-10-26",
-    "batch": "0830",
+    "batch": "0900",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
@@ -11,54 +11,14 @@
     {
       "name": "医疗器械",
       "summary": "医疗器械 主题因市场强度和触发信号进入早盘观察。",
-      "score": 69.12,
+      "score": 69.84,
       "signals": [
-        "A股概念板块涨跌幅 1.89%，上涨家数 114"
+        "A股概念板块涨跌幅 1.98%，上涨家数 118"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "医疗器械 成交额 16132000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        "主题热度可能在开盘后快速变化"
-      ]
-    },
-    {
-      "name": "软件开发",
-      "summary": "软件开发 主题因市场强度和触发信号进入早盘观察。",
-      "score": 66.72,
-      "signals": [
-        "A股概念板块涨跌幅 1.59%，上涨家数 104"
-      ],
-      "evidence": [
-        {
-          "kind": "market",
-          "text": "软件开发 成交额 34285000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        "主题热度可能在开盘后快速变化"
-      ]
-    },
-    {
-      "name": "医药商业",
-      "summary": "医药商业 主题因市场强度和触发信号进入早盘观察。",
-      "score": 65.59,
-      "signals": [
-        "A股概念板块涨跌幅 3.40%，上涨家数 32"
-      ],
-      "evidence": [
-        {
-          "kind": "market",
-          "text": "医药商业 成交额 3963000000",
+          "text": "医疗器械 成交额 17959000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -71,14 +31,54 @@
     {
       "name": "游戏",
       "summary": "游戏 主题因市场强度和触发信号进入早盘观察。",
-      "score": 64.67,
+      "score": 65.97,
       "signals": [
-        "A股概念板块涨跌幅 3.63%，上涨家数 20"
+        "A股概念板块涨跌幅 3.73%，上涨家数 21"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "游戏 成交额 7552000000",
+          "text": "游戏 成交额 8773000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "医药商业",
+      "summary": "医药商业 主题因市场强度和触发信号进入早盘观察。",
+      "score": 64.97,
+      "signals": [
+        "A股概念板块涨跌幅 3.31%，上涨家数 32"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "医药商业 成交额 4252000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "软件开发",
+      "summary": "软件开发 主题因市场强度和触发信号进入早盘观察。",
+      "score": 64.48,
+      "signals": [
+        "A股概念板块涨跌幅 1.31%，上涨家数 102"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "软件开发 成交额 37544000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -91,14 +91,14 @@
     {
       "name": "IT服务",
       "summary": "IT服务 主题因市场强度和触发信号进入早盘观察。",
-      "score": 63.2,
+      "score": 61.56,
       "signals": [
-        "A股概念板块涨跌幅 1.15%，上涨家数 86"
+        "A股概念板块涨跌幅 1.02%，上涨家数 78"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "IT服务 成交额 28305000000",
+          "text": "IT服务 成交额 31089000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -117,7 +117,7 @@
       "themes": [
         "IT服务"
       ],
-      "score": 110.45,
+      "score": 114.45,
       "reason": "开普云 与 IT服务 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -129,7 +129,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 600433626，涨跌幅 15.63%",
+          "text": "成交额 629353480，涨跌幅 17.18%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -153,8 +153,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 15.632,
-        "amount": 600433626.0,
+        "pct_change": 17.184,
+        "amount": 629353480.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -166,7 +166,7 @@
       "themes": [
         "游戏"
       ],
-      "score": 107.21,
+      "score": 109.92,
       "reason": "盛天网络 与 游戏 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -178,7 +178,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 448115240，涨跌幅 14.50%",
+          "text": "成交额 558778167，涨跌幅 15.08%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -202,57 +202,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 14.501,
-        "amount": 448115240.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688277",
-      "name": "天智航",
-      "market": "科创板",
-      "themes": [
-        "医疗器械"
-      ],
-      "score": 102.71,
-      "reason": "天智航 与 医疗器械 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 医疗器械 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 309837749，涨跌幅 12.55%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "医疗器械 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 12.548,
-        "amount": 309837749.0,
+        "pct_change": 15.081,
+        "amount": 558778167.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -264,7 +215,7 @@
       "themes": [
         "医疗器械"
       ],
-      "score": 100.42,
+      "score": 103.65,
       "reason": "山外山 与 医疗器械 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -276,7 +227,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 250447706，涨跌幅 11.91%",
+          "text": "成交额 296888490，涨跌幅 12.78%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -300,8 +251,57 @@
         }
       ],
       "snapshot": {
-        "pct_change": 11.907,
-        "amount": 250447706.0,
+        "pct_change": 12.778,
+        "amount": 296888490.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688277",
+      "name": "天智航",
+      "market": "科创板",
+      "themes": [
+        "医疗器械"
+      ],
+      "score": 100.26,
+      "reason": "天智航 与 医疗器械 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗器械 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 329440382，涨跌幅 11.59%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗器械 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 11.588,
+        "amount": 329440382.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -313,7 +313,7 @@
       "themes": [
         "医药商业"
       ],
-      "score": 98.97,
+      "score": 97.27,
       "reason": "百洋医药 与 医药商业 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -325,7 +325,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 466478929，涨跌幅 11.59%",
+          "text": "成交额 476810084，涨跌幅 11.11%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -349,8 +349,57 @@
         }
       ],
       "snapshot": {
-        "pct_change": 11.593,
-        "amount": 466478929.0,
+        "pct_change": 11.106,
+        "amount": 476810084.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300832",
+      "name": "新产业",
+      "market": "创业板",
+      "themes": [
+        "医疗器械"
+      ],
+      "score": 94.82,
+      "reason": "新产业 与 医疗器械 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗器械 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 641168298，涨跌幅 9.39%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗器械 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.389,
+        "amount": 641168298.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -362,7 +411,7 @@
       "themes": [
         "软件开发"
       ],
-      "score": 95.43,
+      "score": 94.46,
       "reason": "海量数据 与 软件开发 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -374,7 +423,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 671715993，涨跌幅 10.03%",
+          "text": "成交额 688233193，涨跌幅 10.03%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -399,31 +448,31 @@
       ],
       "snapshot": {
         "pct_change": 10.032,
-        "amount": 671715993.0,
+        "amount": 688233193.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301097",
-      "name": "天益医疗",
-      "market": "创业板",
+      "code": "688787",
+      "name": "海天瑞声",
+      "market": "科创板",
       "themes": [
-        "医疗器械"
+        "IT服务"
       ],
-      "score": 94.19,
-      "reason": "天益医疗 与 医疗器械 主题相关，且交易活跃度进入候选池。",
+      "score": 94.22,
+      "reason": "海天瑞声 与 IT服务 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗器械 主题产业链候选",
+          "text": "进入 IT服务 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 97718180，涨跌幅 10.37%",
+          "text": "成交额 1527278737，涨跌幅 9.93%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -439,7 +488,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗器械 热度可能在开盘后快速回落"
+          "text": "IT服务 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -447,106 +496,8 @@
         }
       ],
       "snapshot": {
-        "pct_change": 10.374,
-        "amount": 97718180.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "002178",
-      "name": "延华智能",
-      "market": "深市主板",
-      "themes": [
-        "软件开发"
-      ],
-      "score": 93.43,
-      "reason": "延华智能 与 软件开发 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 软件开发 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 188419359，涨跌幅 10.10%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "软件开发 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.103,
-        "amount": 188419359.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "603716",
-      "name": "塞力医疗",
-      "market": "沪市主板",
-      "themes": [
-        "医药商业"
-      ],
-      "score": 93.13,
-      "reason": "塞力医疗 与 医药商业 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 医药商业 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 252765367，涨跌幅 10.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "医药商业 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.0,
-        "amount": 252765367.0,
+        "pct_change": 9.929,
+        "amount": 1527278737.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
@@ -558,7 +509,7 @@
       "themes": [
         "游戏"
       ],
-      "score": 92.73,
+      "score": 93.32,
       "reason": "电魂网络 与 游戏 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
@@ -570,7 +521,7 @@
         },
         {
           "kind": "market",
-          "text": "成交额 258215347，涨跌幅 9.99%",
+          "text": "成交额 259509727，涨跌幅 9.99%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -595,7 +546,56 @@
       ],
       "snapshot": {
         "pct_change": 9.993,
-        "amount": 258215347.0,
+        "amount": 259509727.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603716",
+      "name": "塞力医疗",
+      "market": "沪市主板",
+      "themes": [
+        "医药商业"
+      ],
+      "score": 92.86,
+      "reason": "塞力医疗 与 医药商业 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医药商业 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 254492074，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医药商业 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 254492074.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
