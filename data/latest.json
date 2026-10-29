@@ -1,25 +1,25 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-28T13:59:24.707862+08:00",
-    "trade_date": "2026-10-28",
+    "generated_at": "2026-10-29T14:06:32.207142+08:00",
+    "trade_date": "2026-10-29",
     "batch": "0830",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "强势活跃股",
-      "summary": "强势活跃股 主题因市场强度和触发信号进入早盘观察。",
-      "score": 188.14,
+      "name": "银行",
+      "summary": "银行 主题因市场强度和触发信号进入早盘观察。",
+      "score": 56.26,
       "signals": [
-        "A股概念板块涨跌幅 19.02%，上涨家数 20"
+        "A股概念板块涨跌幅 1.82%，上涨家数 39"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "强势活跃股 成交额 21815857395",
-          "source_name": "fallback:market_activity",
+          "text": "银行 成交额 29640000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -29,17 +29,17 @@
       ]
     },
     {
-      "name": "创业板活跃",
-      "summary": "创业板活跃 主题因市场强度和触发信号进入早盘观察。",
-      "score": 179.73,
+      "name": "风电设备",
+      "summary": "风电设备 主题因市场强度和触发信号进入早盘观察。",
+      "score": 51.98,
       "signals": [
-        "A股概念板块涨跌幅 17.97%，上涨家数 20"
+        "A股概念板块涨跌幅 2.00%，上涨家数 20"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "创业板活跃 成交额 24368601892",
-          "source_name": "fallback:market_activity",
+          "text": "风电设备 成交额 9884000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -49,17 +49,17 @@
       ]
     },
     {
-      "name": "科创板活跃",
-      "summary": "科创板活跃 主题因市场强度和触发信号进入早盘观察。",
-      "score": 149.53,
+      "name": "保险",
+      "summary": "保险 主题因市场强度和触发信号进入早盘观察。",
+      "score": 42.94,
       "signals": [
-        "A股概念板块涨跌幅 14.19%，上涨家数 20"
+        "A股概念板块涨跌幅 1.55%，上涨家数 3"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "科创板活跃 成交额 15079389743",
-          "source_name": "fallback:market_activity",
+          "text": "保险 成交额 7608000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -69,17 +69,17 @@
       ]
     },
     {
-      "name": "沪深主板活跃",
-      "summary": "沪深主板活跃 主题因市场强度和触发信号进入早盘观察。",
-      "score": 116.03,
+      "name": "煤炭开采加工",
+      "summary": "煤炭开采加工 主题因市场强度和触发信号进入早盘观察。",
+      "score": 41.77,
       "signals": [
-        "A股概念板块涨跌幅 10.00%，上涨家数 20"
+        "A股概念板块涨跌幅 0.70%，上涨家数 21"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "沪深主板活跃 成交额 18183714105",
-          "source_name": "fallback:market_activity",
+          "text": "煤炭开采加工 成交额 9071000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -89,17 +89,17 @@
       ]
     },
     {
-      "name": "高成交额核心股",
-      "summary": "高成交额核心股 主题因市场强度和触发信号进入早盘观察。",
-      "score": 66.79,
+      "name": "食品加工制造",
+      "summary": "食品加工制造 主题因市场强度和触发信号进入早盘观察。",
+      "score": 37.72,
       "signals": [
-        "A股概念板块涨跌幅 3.96%，上涨家数 17"
+        "A股概念板块涨跌幅 -0.02%，上涨家数 28"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "高成交额核心股 成交额 141237940841",
-          "source_name": "fallback:market_activity",
+          "text": "食品加工制造 成交额 6698000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
         }
@@ -111,26 +111,25 @@
   ],
   "candidates": [
     {
-      "code": "300006",
-      "name": "莱美药业",
+      "code": "301232",
+      "name": "飞沃科技",
       "market": "创业板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "风电设备"
       ],
-      "score": 182.03,
-      "reason": "莱美药业 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 114.82,
+      "reason": "飞沃科技 与 风电设备 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 风电设备 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 2383018188，涨跌幅 19.95%",
+          "text": "成交额 1255175393，涨跌幅 18.34%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -141,57 +140,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "风电设备 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 19.952,
-        "amount": 2383018188.0,
+        "pct_change": 18.344,
+        "amount": 1255175393.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301080",
-      "name": "百普赛斯",
+      "code": "301155",
+      "name": "海力风电",
       "market": "创业板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "风电设备"
       ],
-      "score": 181.3,
-      "reason": "百普赛斯 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 95.45,
+      "reason": "海力风电 与 风电设备 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 风电设备 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1452782168，涨跌幅 20.00%",
+          "text": "成交额 388552221，涨跌幅 12.57%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -202,57 +189,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "风电设备 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 19.995,
-        "amount": 1452782168.0,
+        "pct_change": 12.567,
+        "amount": 388552221.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301047",
-      "name": "义翘神州",
-      "market": "创业板",
+      "code": "002531",
+      "name": "天顺风能",
+      "market": "深市主板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "风电设备"
       ],
-      "score": 180.92,
-      "reason": "义翘神州 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 89.18,
+      "reason": "天顺风能 与 风电设备 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 风电设备 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1159952534，涨跌幅 20.00%",
+          "text": "成交额 935631562，涨跌幅 9.97%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -263,57 +238,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "风电设备 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 1159952534.0,
+        "pct_change": 9.969,
+        "amount": 935631562.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "688137",
-      "name": "近岸蛋白",
-      "market": "科创板",
+      "code": "002948",
+      "name": "青岛银行",
+      "market": "深市主板",
       "themes": [
-        "强势活跃股",
-        "科创板活跃"
+        "银行"
       ],
-      "score": 180.79,
-      "reason": "近岸蛋白 与 强势活跃股 / 科创板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 83.78,
+      "reason": "青岛银行 与 银行 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 银行 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1075955310，涨跌幅 20.00%",
+          "text": "成交额 719947356，涨跌幅 7.68%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -324,57 +287,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 科创板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "银行 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "科创板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 1075955310.0,
+        "pct_change": 7.679,
+        "amount": 719947356.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "300613",
-      "name": "富瀚微",
-      "market": "创业板",
+      "code": "600997",
+      "name": "开滦股份",
+      "market": "沪市主板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "煤炭开采加工"
       ],
-      "score": 180.75,
-      "reason": "富瀚微 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 81.62,
+      "reason": "开滦股份 与 煤炭开采加工 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 煤炭开采加工 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1050262726，涨跌幅 20.00%",
+          "text": "成交额 160169219，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -385,57 +336,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "煤炭开采加工 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 1050262726.0,
+        "pct_change": 10.0,
+        "amount": 160169219.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "300291",
-      "name": "百纳千成",
-      "market": "创业板",
+      "code": "603536",
+      "name": "惠发食品",
+      "market": "沪市主板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "食品加工制造"
       ],
-      "score": 180.55,
-      "reason": "百纳千成 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 79.53,
+      "reason": "惠发食品 与 食品加工制造 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 食品加工制造 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 936444331，涨跌幅 20.00%",
+          "text": "成交额 134827041，涨跌幅 10.01%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -446,57 +385,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "食品加工制造 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 936444331.0,
+        "pct_change": 10.011,
+        "amount": 134827041.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301261",
-      "name": "恒工精密",
-      "market": "创业板",
+      "code": "605338",
+      "name": "巴比食品",
+      "market": "沪市主板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "食品加工制造"
       ],
-      "score": 179.56,
-      "reason": "恒工精密 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 78.94,
+      "reason": "巴比食品 与 食品加工制造 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 食品加工制造 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 533356514，涨跌幅 20.00%",
+          "text": "成交额 93437542，涨跌幅 10.03%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -507,57 +434,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "食品加工制造 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 19.996,
-        "amount": 533356514.0,
+        "pct_change": 10.029,
+        "amount": 93437542.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "688698",
-      "name": "伟创电气",
-      "market": "科创板",
+      "code": "601838",
+      "name": "成都银行",
+      "market": "沪市主板",
       "themes": [
-        "强势活跃股",
-        "科创板活跃"
+        "银行"
       ],
-      "score": 179.49,
-      "reason": "伟创电气 与 强势活跃股 / 科创板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 78.9,
+      "reason": "成都银行 与 银行 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 银行 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 509042006，涨跌幅 20.00%",
+          "text": "成交额 827345277，涨跌幅 5.97%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -568,57 +483,41 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 科创板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "科创板活跃 热度可能在开盘后快速回落"
+          "text": "银行 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 509042006.0,
+        "pct_change": 5.97,
+        "amount": 827345277.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "300780",
-      "name": "德恩精工",
-      "market": "创业板",
+      "code": "001219",
+      "name": "青岛食品",
+      "market": "深市主板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "食品加工制造"
       ],
-      "score": 178.87,
-      "reason": "德恩精工 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 77.87,
+      "reason": "青岛食品 与 食品加工制造 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 食品加工制造 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 355311918，涨跌幅 20.00%",
+          "text": "成交额 51966273，涨跌幅 10.01%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -629,57 +528,45 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
+          "text": "食品加工制造 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 20.0,
-        "amount": 355311918.0,
+        "pct_change": 10.012,
+        "amount": 51966273.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301076",
-      "name": "新瀚新材",
-      "market": "创业板",
+      "code": "002487",
+      "name": "大金重工",
+      "market": "深市主板",
       "themes": [
-        "强势活跃股",
-        "创业板活跃"
+        "风电设备"
       ],
-      "score": 178.68,
-      "reason": "新瀚新材 与 强势活跃股 / 创业板活跃 主题相关，且交易活跃度进入候选池。",
+      "score": 77.34,
+      "reason": "大金重工 与 风电设备 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 强势活跃股 主题产业链候选",
+          "text": "进入 风电设备 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 325004439，涨跌幅 19.99%",
+          "text": "成交额 1802129202，涨跌幅 5.64%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -690,38 +577,21 @@
           "source_name": "",
           "url": "",
           "observed_at": null
-        },
-        {
-          "kind": "theme",
-          "text": "进入 创业板活跃 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
         }
       ],
       "risks": [
         {
           "kind": "theme",
-          "text": "强势活跃股 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        },
-        {
-          "kind": "theme",
-          "text": "创业板活跃 热度可能在开盘后快速回落"
+          "text": "风电设备 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 19.99,
-        "amount": 325004439.0,
+        "pct_change": 5.642,
+        "amount": 1802129202.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     }
   ],
-  "warnings": [
-    "主题板块公开源暂不可用，已使用市场活跃度兜底生成候选。"
-  ]
+  "warnings": []
 }
