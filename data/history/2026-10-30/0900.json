@@ -1,0 +1,605 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-10-30T14:35:07.365124+08:00",
+    "trade_date": "2026-10-30",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "白酒",
+      "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
+      "score": 77.62,
+      "signals": [
+        "A股概念板块涨跌幅 5.24%，上涨家数 19"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "白酒 成交额 21694000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "医疗服务",
+      "summary": "医疗服务 主题因市场强度和触发信号进入早盘观察。",
+      "score": 55.06,
+      "signals": [
+        "A股概念板块涨跌幅 1.97%，上涨家数 31"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "医疗服务 成交额 31803000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "港口航运",
+      "summary": "港口航运 主题因市场强度和触发信号进入早盘观察。",
+      "score": 49.5,
+      "signals": [
+        "A股概念板块涨跌幅 1.50%，上涨家数 25"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "港口航运 成交额 11874000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "中药",
+      "summary": "中药 主题因市场强度和触发信号进入早盘观察。",
+      "score": 45.98,
+      "signals": [
+        "A股概念板块涨跌幅 0.43%，上涨家数 42"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "中药 成交额 9520000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "饮料制造",
+      "summary": "饮料制造 主题因市场强度和触发信号进入早盘观察。",
+      "score": 43.08,
+      "signals": [
+        "A股概念板块涨跌幅 0.51%，上涨家数 30"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "饮料制造 成交额 10487000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "301520",
+      "name": "万邦医药",
+      "market": "创业板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 120.39,
+      "reason": "万邦医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 802293457，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 802293457.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688073",
+      "name": "毕得医药",
+      "market": "科创板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 119.58,
+      "reason": "毕得医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 501059925，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 501059925.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000568",
+      "name": "泸州老窖",
+      "market": "深市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 102.82,
+      "reason": "泸州老窖 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2937043081，涨跌幅 10.01%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.006,
+        "amount": 2937043081.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000596",
+      "name": "古井贡酒",
+      "market": "深市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 100.88,
+      "reason": "古井贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 972394447，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 972394447.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000995",
+      "name": "皇台酒业",
+      "market": "深市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 100.34,
+      "reason": "皇台酒业 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 704456933，涨跌幅 10.01%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.008,
+        "amount": 704456933.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒",
+      "market": "沪市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 99.23,
+      "reason": "迎驾贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 380555857，涨跌幅 9.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.993,
+        "amount": 380555857.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300149",
+      "name": "睿智医药",
+      "market": "创业板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 98.44,
+      "reason": "睿智医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 692848935，涨跌幅 12.77%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.766,
+        "amount": 692848935.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "market": "沪市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 97.27,
+      "reason": "山西汾酒 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2489304643，涨跌幅 8.25%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.252,
+        "amount": 2489304643.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688131",
+      "name": "皓元医药",
+      "market": "科创板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 93.26,
+      "reason": "皓元医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 918383206，涨跌幅 10.88%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.876,
+        "amount": 918383206.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603369",
+      "name": "今世缘",
+      "market": "沪市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 91.62,
+      "reason": "今世缘 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 603126388，涨跌幅 7.19%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.191,
+        "amount": 603126388.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    }
+  ],
+  "warnings": []
+}
