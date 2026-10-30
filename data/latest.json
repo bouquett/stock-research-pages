@@ -1,24 +1,24 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-29T14:06:32.207142+08:00",
-    "trade_date": "2026-10-29",
+    "generated_at": "2026-10-30T14:07:20.977023+08:00",
+    "trade_date": "2026-10-30",
     "batch": "0830",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "银行",
-      "summary": "银行 主题因市场强度和触发信号进入早盘观察。",
-      "score": 56.26,
+      "name": "白酒",
+      "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
+      "score": 80.02,
       "signals": [
-        "A股概念板块涨跌幅 1.82%，上涨家数 39"
+        "A股概念板块涨跌幅 5.54%，上涨家数 19"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "银行 成交额 29640000000",
+          "text": "白酒 成交额 20167000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -29,16 +29,16 @@
       ]
     },
     {
-      "name": "风电设备",
-      "summary": "风电设备 主题因市场强度和触发信号进入早盘观察。",
-      "score": 51.98,
+      "name": "医疗服务",
+      "summary": "医疗服务 主题因市场强度和触发信号进入早盘观察。",
+      "score": 63.28,
       "signals": [
-        "A股概念板块涨跌幅 2.00%，上涨家数 20"
+        "A股概念板块涨跌幅 2.66%，上涨家数 40"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "风电设备 成交额 9884000000",
+          "text": "医疗服务 成交额 29907000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -49,16 +49,16 @@
       ]
     },
     {
-      "name": "保险",
-      "summary": "保险 主题因市场强度和触发信号进入早盘观察。",
-      "score": 42.94,
+      "name": "港口航运",
+      "summary": "港口航运 主题因市场强度和触发信号进入早盘观察。",
+      "score": 54.68,
       "signals": [
-        "A股概念板块涨跌幅 1.55%，上涨家数 3"
+        "A股概念板块涨跌幅 1.96%，上涨家数 30"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "保险 成交额 7608000000",
+          "text": "港口航运 成交额 10960000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -69,16 +69,16 @@
       ]
     },
     {
-      "name": "煤炭开采加工",
-      "summary": "煤炭开采加工 主题因市场强度和触发信号进入早盘观察。",
-      "score": 41.77,
+      "name": "化学制药",
+      "summary": "化学制药 主题因市场强度和触发信号进入早盘观察。",
+      "score": 54.56,
       "signals": [
-        "A股概念板块涨跌幅 0.70%，上涨家数 21"
+        "A股概念板块涨跌幅 0.07%，上涨家数 87"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "煤炭开采加工 成交额 9071000000",
+          "text": "化学制药 成交额 28729000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -89,16 +89,16 @@
       ]
     },
     {
-      "name": "食品加工制造",
-      "summary": "食品加工制造 主题因市场强度和触发信号进入早盘观察。",
-      "score": 37.72,
+      "name": "中药",
+      "summary": "中药 主题因市场强度和触发信号进入早盘观察。",
+      "score": 54.04,
       "signals": [
-        "A股概念板块涨跌幅 -0.02%，上涨家数 28"
+        "A股概念板块涨跌幅 1.04%，上涨家数 53"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "食品加工制造 成交额 6698000000",
+          "text": "中药 成交额 8685000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -111,25 +111,25 @@
   ],
   "candidates": [
     {
-      "code": "301232",
-      "name": "飞沃科技",
+      "code": "301520",
+      "name": "万邦医药",
       "market": "创业板",
       "themes": [
-        "风电设备"
+        "医疗服务"
       ],
-      "score": 114.82,
-      "reason": "飞沃科技 与 风电设备 主题相关，且交易活跃度进入候选池。",
+      "score": 124.07,
+      "reason": "万邦医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 风电设备 主题产业链候选",
+          "text": "进入 医疗服务 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1255175393，涨跌幅 18.34%",
+          "text": "成交额 790329505，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -145,7 +145,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "风电设备 热度可能在开盘后快速回落"
+          "text": "医疗服务 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -153,32 +153,32 @@
         }
       ],
       "snapshot": {
-        "pct_change": 18.344,
-        "amount": 1255175393.0,
+        "pct_change": 20.0,
+        "amount": 790329505.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301155",
-      "name": "海力风电",
-      "market": "创业板",
+      "code": "688073",
+      "name": "毕得医药",
+      "market": "科创板",
       "themes": [
-        "风电设备"
+        "医疗服务"
       ],
-      "score": 95.45,
-      "reason": "海力风电 与 风电设备 主题相关，且交易活跃度进入候选池。",
+      "score": 123.19,
+      "reason": "毕得医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 风电设备 主题产业链候选",
+          "text": "进入 医疗服务 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 388552221，涨跌幅 12.57%",
+          "text": "成交额 478229982，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -194,7 +194,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "风电设备 热度可能在开盘后快速回落"
+          "text": "医疗服务 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -202,32 +202,32 @@
         }
       ],
       "snapshot": {
-        "pct_change": 12.567,
-        "amount": 388552221.0,
+        "pct_change": 20.0,
+        "amount": 478229982.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "002531",
-      "name": "天顺风能",
+      "code": "000568",
+      "name": "泸州老窖",
       "market": "深市主板",
       "themes": [
-        "风电设备"
+        "白酒"
       ],
-      "score": 89.18,
-      "reason": "天顺风能 与 风电设备 主题相关，且交易活跃度进入候选池。",
+      "score": 103.87,
+      "reason": "泸州老窖 与 白酒 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 风电设备 主题产业链候选",
+          "text": "进入 白酒 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 935631562，涨跌幅 9.97%",
+          "text": "成交额 2887863173，涨跌幅 10.01%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -243,7 +243,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "风电设备 热度可能在开盘后快速回落"
+          "text": "白酒 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -251,32 +251,32 @@
         }
       ],
       "snapshot": {
-        "pct_change": 9.969,
-        "amount": 935631562.0,
+        "pct_change": 10.006,
+        "amount": 2887863173.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "002948",
-      "name": "青岛银行",
+      "code": "000596",
+      "name": "古井贡酒",
       "market": "深市主板",
       "themes": [
-        "银行"
+        "白酒"
       ],
-      "score": 83.78,
-      "reason": "青岛银行 与 银行 主题相关，且交易活跃度进入候选池。",
+      "score": 101.94,
+      "reason": "古井贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 银行 主题产业链候选",
+          "text": "进入 白酒 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 719947356，涨跌幅 7.68%",
+          "text": "成交额 961101847，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -292,56 +292,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "银行 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 7.679,
-        "amount": 719947356.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "600997",
-      "name": "开滦股份",
-      "market": "沪市主板",
-      "themes": [
-        "煤炭开采加工"
-      ],
-      "score": 81.62,
-      "reason": "开滦股份 与 煤炭开采加工 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 煤炭开采加工 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 160169219，涨跌幅 10.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "煤炭开采加工 热度可能在开盘后快速回落"
+          "text": "白酒 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -350,174 +301,31 @@
       ],
       "snapshot": {
         "pct_change": 10.0,
-        "amount": 160169219.0,
+        "amount": 961101847.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "603536",
-      "name": "惠发食品",
-      "market": "沪市主板",
-      "themes": [
-        "食品加工制造"
-      ],
-      "score": 79.53,
-      "reason": "惠发食品 与 食品加工制造 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 食品加工制造 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 134827041，涨跌幅 10.01%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "食品加工制造 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.011,
-        "amount": 134827041.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "605338",
-      "name": "巴比食品",
-      "market": "沪市主板",
-      "themes": [
-        "食品加工制造"
-      ],
-      "score": 78.94,
-      "reason": "巴比食品 与 食品加工制造 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 食品加工制造 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 93437542，涨跌幅 10.03%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "食品加工制造 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.029,
-        "amount": 93437542.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "601838",
-      "name": "成都银行",
-      "market": "沪市主板",
-      "themes": [
-        "银行"
-      ],
-      "score": 78.9,
-      "reason": "成都银行 与 银行 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 银行 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 827345277，涨跌幅 5.97%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "银行 热度可能在开盘后快速回落"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 5.97,
-        "amount": 827345277.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "001219",
-      "name": "青岛食品",
+      "code": "000995",
+      "name": "皇台酒业",
       "market": "深市主板",
       "themes": [
-        "食品加工制造"
+        "白酒"
       ],
-      "score": 77.87,
-      "reason": "青岛食品 与 食品加工制造 主题相关，且交易活跃度进入候选池。",
+      "score": 101.42,
+      "reason": "皇台酒业 与 白酒 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 食品加工制造 主题产业链候选",
+          "text": "进入 白酒 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 51966273，涨跌幅 10.01%",
+          "text": "成交额 702090291，涨跌幅 10.01%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -533,7 +341,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "食品加工制造 热度可能在开盘后快速回落"
+          "text": "白酒 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -541,32 +349,32 @@
         }
       ],
       "snapshot": {
-        "pct_change": 10.012,
-        "amount": 51966273.0,
+        "pct_change": 10.008,
+        "amount": 702090291.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "002487",
-      "name": "大金重工",
-      "market": "深市主板",
+      "code": "300149",
+      "name": "睿智医药",
+      "market": "创业板",
       "themes": [
-        "风电设备"
+        "医疗服务"
       ],
-      "score": 77.34,
-      "reason": "大金重工 与 风电设备 主题相关，且交易活跃度进入候选池。",
+      "score": 101.3,
+      "reason": "睿智医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 风电设备 主题产业链候选",
+          "text": "进入 医疗服务 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1802129202，涨跌幅 5.64%",
+          "text": "成交额 658320774，涨跌幅 12.52%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -582,12 +390,212 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "风电设备 热度可能在开盘后快速回落"
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
         }
       ],
       "snapshot": {
-        "pct_change": 5.642,
-        "amount": 1802129202.0,
+        "pct_change": 12.516,
+        "amount": 658320774.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688131",
+      "name": "皓元医药",
+      "market": "科创板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 101.06,
+      "reason": "皓元医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 860295824，涨跌幅 12.28%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.283,
+        "amount": 860295824.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒",
+      "market": "沪市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 100.29,
+      "reason": "迎驾贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 375815355，涨跌幅 9.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.993,
+        "amount": 375815355.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "market": "沪市主板",
+      "themes": [
+        "白酒"
+      ],
+      "score": 97.41,
+      "reason": "山西汾酒 与 白酒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 白酒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2326049639，涨跌幅 7.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "白酒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.979,
+        "amount": 2326049639.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002172",
+      "name": "澳洋健康",
+      "market": "深市主板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 95.05,
+      "reason": "澳洋健康 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1266413931，涨跌幅 10.06%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.056,
+        "amount": 1266413931.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
