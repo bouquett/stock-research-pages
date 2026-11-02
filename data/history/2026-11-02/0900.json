@@ -1,0 +1,809 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-02T14:57:34.390999+08:00",
+    "trade_date": "2026-11-02",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "AI视频",
+      "summary": "AI视频 主题因市场强度和触发信号进入早盘观察。",
+      "score": 121.54,
+      "signals": [
+        "A股概念板块涨跌幅 10.58%，上涨家数 23"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "AI视频 成交额 418454976000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "短剧互动游戏",
+      "summary": "短剧互动游戏 主题因市场强度和触发信号进入早盘观察。",
+      "score": 115.42,
+      "signals": [
+        "A股概念板块涨跌幅 8.84%，上涨家数 49"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "短剧互动游戏 成交额 629769088000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "AIGC概念",
+      "summary": "AIGC概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 112.96,
+      "signals": [
+        "A股概念板块涨跌幅 7.37%，上涨家数 131"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "AIGC概念 成交额 1915271824000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "影视概念",
+      "summary": "影视概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 110.94,
+      "signals": [
+        "A股概念板块涨跌幅 7.83%，上涨家数 61"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "影视概念 成交额 553695296000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "文娱消费",
+      "summary": "文娱消费 主题因市场强度和触发信号进入早盘观察。",
+      "score": 107.92,
+      "signals": [
+        "A股概念板块涨跌幅 6.74%，上涨家数 88"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "文娱消费 成交额 1020465712000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "301052",
+      "name": "果麦文化",
+      "market": "创业板",
+      "themes": [
+        "AIGC概念"
+      ],
+      "score": 234.49,
+      "reason": "果麦文化 与 AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1196126374，涨跌幅 19.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 41.49%，量比 1.10",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.99,
+        "amount": 1196126374.5,
+        "turnover_rate": 41.49,
+        "volume_ratio": 1.1
+      }
+    },
+    {
+      "code": "300182",
+      "name": "捷成股份",
+      "market": "创业板",
+      "themes": [
+        "AI视频",
+        "短剧互动游戏",
+        "AIGC概念",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 194.24,
+      "reason": "捷成股份 与 AI视频 / 短剧互动游戏 / AIGC概念 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2201539925，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.31%，量比 1.89",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 2201539925.16,
+        "turnover_rate": 17.31,
+        "volume_ratio": 1.89
+      }
+    },
+    {
+      "code": "301262",
+      "name": "海看股份",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 193.67,
+      "reason": "海看股份 与 短剧互动游戏 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 533121200，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 20.25%，量比 1.58",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 533121199.62,
+        "turnover_rate": 20.25,
+        "volume_ratio": 1.58
+      }
+    },
+    {
+      "code": "300556",
+      "name": "丝路视觉",
+      "market": "创业板",
+      "themes": [
+        "影视概念"
+      ],
+      "score": 185.01,
+      "reason": "丝路视觉 与 影视概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 350450419，涨跌幅 19.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.73%，量比 1.37",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.99,
+        "amount": 350450419.0,
+        "turnover_rate": 17.73,
+        "volume_ratio": 1.37
+      }
+    },
+    {
+      "code": "300426",
+      "name": "华智数媒",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 178.1,
+      "reason": "华智数媒 与 短剧互动游戏 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 358374549，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 12.27%，量比 1.85",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 358374549.34,
+        "turnover_rate": 12.27,
+        "volume_ratio": 1.85
+      }
+    },
+    {
+      "code": "300364",
+      "name": "中文在线",
+      "market": "创业板",
+      "themes": [
+        "AI视频",
+        "短剧互动游戏",
+        "AIGC概念",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 175.54,
+      "reason": "中文在线 与 AI视频 / 短剧互动游戏 / AIGC概念 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3033863500，涨跌幅 13.16%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 19.20%，量比 1.26",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 13.16,
+        "amount": 3033863499.8,
+        "turnover_rate": 19.2,
+        "volume_ratio": 1.26
+      }
+    },
+    {
+      "code": "300781",
+      "name": "因赛集团",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏",
+        "AIGC概念"
+      ],
+      "score": 174.97,
+      "reason": "因赛集团 与 短剧互动游戏 / AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 329897613，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 10.94%，量比 1.77",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 329897612.78,
+        "turnover_rate": 10.94,
+        "volume_ratio": 1.77
+      }
+    },
+    {
+      "code": "300788",
+      "name": "中信出版",
+      "market": "创业板",
+      "themes": [
+        "AI视频"
+      ],
+      "score": 171.46,
+      "reason": "中信出版 与 AI视频 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 372093826，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 6.78%，量比 2.23",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 372093825.83,
+        "turnover_rate": 6.78,
+        "volume_ratio": 2.23
+      }
+    },
+    {
+      "code": "300413",
+      "name": "芒果超媒",
+      "market": "创业板",
+      "themes": [
+        "AI视频",
+        "短剧互动游戏",
+        "AIGC概念",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 171.14,
+      "reason": "芒果超媒 与 AI视频 / 短剧互动游戏 / AIGC概念 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1961592366，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 7.82%，量比 0.91",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 1961592366.09,
+        "turnover_rate": 7.82,
+        "volume_ratio": 0.91
+      }
+    },
+    {
+      "code": "688004",
+      "name": "博汇科技",
+      "market": "科创板",
+      "themes": [
+        "影视概念"
+      ],
+      "score": 169.31,
+      "reason": "博汇科技 与 影视概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 716679766，涨跌幅 10.43%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 21.76%，量比 2.29",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.43,
+        "amount": 716679766.0,
+        "turnover_rate": 21.76,
+        "volume_ratio": 2.29
+      }
+    }
+  ],
+  "warnings": []
+}

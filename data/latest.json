@@ -1,25 +1,25 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-30T14:35:07.365124+08:00",
-    "trade_date": "2026-10-30",
+    "generated_at": "2026-11-02T14:57:34.390999+08:00",
+    "trade_date": "2026-11-02",
     "batch": "0900",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "白酒",
-      "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
-      "score": 77.62,
+      "name": "AI视频",
+      "summary": "AI视频 主题因市场强度和触发信号进入早盘观察。",
+      "score": 121.54,
       "signals": [
-        "A股概念板块涨跌幅 5.24%，上涨家数 19"
+        "A股概念板块涨跌幅 10.58%，上涨家数 23"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "白酒 成交额 21694000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "AI视频 成交额 418454976000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -29,17 +29,17 @@
       ]
     },
     {
-      "name": "医疗服务",
-      "summary": "医疗服务 主题因市场强度和触发信号进入早盘观察。",
-      "score": 55.06,
+      "name": "短剧互动游戏",
+      "summary": "短剧互动游戏 主题因市场强度和触发信号进入早盘观察。",
+      "score": 115.42,
       "signals": [
-        "A股概念板块涨跌幅 1.97%，上涨家数 31"
+        "A股概念板块涨跌幅 8.84%，上涨家数 49"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "医疗服务 成交额 31803000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "短剧互动游戏 成交额 629769088000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -49,17 +49,17 @@
       ]
     },
     {
-      "name": "港口航运",
-      "summary": "港口航运 主题因市场强度和触发信号进入早盘观察。",
-      "score": 49.5,
+      "name": "AIGC概念",
+      "summary": "AIGC概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 112.96,
       "signals": [
-        "A股概念板块涨跌幅 1.50%，上涨家数 25"
+        "A股概念板块涨跌幅 7.37%，上涨家数 131"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "港口航运 成交额 11874000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "AIGC概念 成交额 1915271824000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -69,17 +69,17 @@
       ]
     },
     {
-      "name": "中药",
-      "summary": "中药 主题因市场强度和触发信号进入早盘观察。",
-      "score": 45.98,
+      "name": "影视概念",
+      "summary": "影视概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 110.94,
       "signals": [
-        "A股概念板块涨跌幅 0.43%，上涨家数 42"
+        "A股概念板块涨跌幅 7.83%，上涨家数 61"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "中药 成交额 9520000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "影视概念 成交额 553695296000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -89,17 +89,17 @@
       ]
     },
     {
-      "name": "饮料制造",
-      "summary": "饮料制造 主题因市场强度和触发信号进入早盘观察。",
-      "score": 43.08,
+      "name": "文娱消费",
+      "summary": "文娱消费 主题因市场强度和触发信号进入早盘观察。",
+      "score": 107.92,
       "signals": [
-        "A股概念板块涨跌幅 0.51%，上涨家数 30"
+        "A股概念板块涨跌幅 6.74%，上涨家数 88"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "饮料制造 成交额 10487000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "文娱消费 成交额 1020465712000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -111,32 +111,32 @@
   ],
   "candidates": [
     {
-      "code": "301520",
-      "name": "万邦医药",
+      "code": "301052",
+      "name": "果麦文化",
       "market": "创业板",
       "themes": [
-        "医疗服务"
+        "AIGC概念"
       ],
-      "score": 120.39,
-      "reason": "万邦医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "score": 234.49,
+      "reason": "果麦文化 与 AIGC概念 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
+          "text": "进入 AIGC概念 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 802293457，涨跌幅 20.00%",
+          "text": "成交额 1196126374，涨跌幅 19.99%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 41.49%，量比 1.10",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -145,7 +145,506 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.99,
+        "amount": 1196126374.5,
+        "turnover_rate": 41.49,
+        "volume_ratio": 1.1
+      }
+    },
+    {
+      "code": "300182",
+      "name": "捷成股份",
+      "market": "创业板",
+      "themes": [
+        "AI视频",
+        "短剧互动游戏",
+        "AIGC概念",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 194.24,
+      "reason": "捷成股份 与 AI视频 / 短剧互动游戏 / AIGC概念 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2201539925，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.31%，量比 1.89",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 2201539925.16,
+        "turnover_rate": 17.31,
+        "volume_ratio": 1.89
+      }
+    },
+    {
+      "code": "301262",
+      "name": "海看股份",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 193.67,
+      "reason": "海看股份 与 短剧互动游戏 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 533121200，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 20.25%，量比 1.58",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 533121199.62,
+        "turnover_rate": 20.25,
+        "volume_ratio": 1.58
+      }
+    },
+    {
+      "code": "300556",
+      "name": "丝路视觉",
+      "market": "创业板",
+      "themes": [
+        "影视概念"
+      ],
+      "score": 185.01,
+      "reason": "丝路视觉 与 影视概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 350450419，涨跌幅 19.99%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.73%，量比 1.37",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.99,
+        "amount": 350450419.0,
+        "turnover_rate": 17.73,
+        "volume_ratio": 1.37
+      }
+    },
+    {
+      "code": "300426",
+      "name": "华智数媒",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 178.1,
+      "reason": "华智数媒 与 短剧互动游戏 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 358374549，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 12.27%，量比 1.85",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 358374549.34,
+        "turnover_rate": 12.27,
+        "volume_ratio": 1.85
+      }
+    },
+    {
+      "code": "300364",
+      "name": "中文在线",
+      "market": "创业板",
+      "themes": [
+        "AI视频",
+        "短剧互动游戏",
+        "AIGC概念",
+        "影视概念",
+        "文娱消费"
+      ],
+      "score": 175.54,
+      "reason": "中文在线 与 AI视频 / 短剧互动游戏 / AIGC概念 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3033863500，涨跌幅 13.16%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 19.20%，量比 1.26",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 13.16,
+        "amount": 3033863499.8,
+        "turnover_rate": 19.2,
+        "volume_ratio": 1.26
+      }
+    },
+    {
+      "code": "300781",
+      "name": "因赛集团",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏",
+        "AIGC概念"
+      ],
+      "score": 174.97,
+      "reason": "因赛集团 与 短剧互动游戏 / AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 329897613，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 10.94%，量比 1.77",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 329897612.78,
+        "turnover_rate": 10.94,
+        "volume_ratio": 1.77
+      }
+    },
+    {
+      "code": "300788",
+      "name": "中信出版",
+      "market": "创业板",
+      "themes": [
+        "AI视频"
+      ],
+      "score": 171.46,
+      "reason": "中信出版 与 AI视频 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI视频 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 372093826，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 6.78%，量比 2.23",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI视频 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -154,38 +653,70 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 802293457.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "amount": 372093825.83,
+        "turnover_rate": 6.78,
+        "volume_ratio": 2.23
       }
     },
     {
-      "code": "688073",
-      "name": "毕得医药",
-      "market": "科创板",
+      "code": "300413",
+      "name": "芒果超媒",
+      "market": "创业板",
       "themes": [
-        "医疗服务"
+        "AI视频",
+        "短剧互动游戏",
+        "AIGC概念",
+        "影视概念",
+        "文娱消费"
       ],
-      "score": 119.58,
-      "reason": "毕得医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "score": 171.14,
+      "reason": "芒果超媒 与 AI视频 / 短剧互动游戏 / AIGC概念 / 影视概念 / 文娱消费 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
+          "text": "进入 AI视频 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 501059925，涨跌幅 20.00%",
+          "text": "成交额 1961592366，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 7.82%，量比 0.91",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 文娱消费 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -194,341 +725,63 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
+          "text": "AI视频 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "文娱消费 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 501059925.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "amount": 1961592366.09,
+        "turnover_rate": 7.82,
+        "volume_ratio": 0.91
       }
     },
     {
-      "code": "000568",
-      "name": "泸州老窖",
-      "market": "深市主板",
-      "themes": [
-        "白酒"
-      ],
-      "score": 102.82,
-      "reason": "泸州老窖 与 白酒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 白酒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 2937043081，涨跌幅 10.01%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "白酒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.006,
-        "amount": 2937043081.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "000596",
-      "name": "古井贡酒",
-      "market": "深市主板",
-      "themes": [
-        "白酒"
-      ],
-      "score": 100.88,
-      "reason": "古井贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 白酒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 972394447，涨跌幅 10.00%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "白酒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.0,
-        "amount": 972394447.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "000995",
-      "name": "皇台酒业",
-      "market": "深市主板",
-      "themes": [
-        "白酒"
-      ],
-      "score": 100.34,
-      "reason": "皇台酒业 与 白酒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 白酒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 704456933，涨跌幅 10.01%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "白酒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.008,
-        "amount": 704456933.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "603198",
-      "name": "迎驾贡酒",
-      "market": "沪市主板",
-      "themes": [
-        "白酒"
-      ],
-      "score": 99.23,
-      "reason": "迎驾贡酒 与 白酒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 白酒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 380555857，涨跌幅 9.99%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "白酒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 9.993,
-        "amount": 380555857.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "300149",
-      "name": "睿智医药",
-      "market": "创业板",
-      "themes": [
-        "医疗服务"
-      ],
-      "score": 98.44,
-      "reason": "睿智医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 692848935，涨跌幅 12.77%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 12.766,
-        "amount": 692848935.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "600809",
-      "name": "山西汾酒",
-      "market": "沪市主板",
-      "themes": [
-        "白酒"
-      ],
-      "score": 97.27,
-      "reason": "山西汾酒 与 白酒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 白酒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 2489304643，涨跌幅 8.25%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "白酒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 8.252,
-        "amount": 2489304643.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688131",
-      "name": "皓元医药",
+      "code": "688004",
+      "name": "博汇科技",
       "market": "科创板",
       "themes": [
-        "医疗服务"
+        "影视概念"
       ],
-      "score": 93.26,
-      "reason": "皓元医药 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "score": 169.31,
+      "reason": "博汇科技 与 影视概念 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
+          "text": "进入 影视概念 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 918383206，涨跌幅 10.88%",
+          "text": "成交额 716679766，涨跌幅 10.43%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 21.76%，量比 2.29",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -537,7 +790,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
+          "text": "影视概念 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -545,59 +798,10 @@
         }
       ],
       "snapshot": {
-        "pct_change": 10.876,
-        "amount": 918383206.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "603369",
-      "name": "今世缘",
-      "market": "沪市主板",
-      "themes": [
-        "白酒"
-      ],
-      "score": 91.62,
-      "reason": "今世缘 与 白酒 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 白酒 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 603126388，涨跌幅 7.19%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "白酒 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 7.191,
-        "amount": 603126388.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 10.43,
+        "amount": 716679766.0,
+        "turnover_rate": 21.76,
+        "volume_ratio": 2.29
       }
     }
   ],
