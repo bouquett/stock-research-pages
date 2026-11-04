@@ -1,25 +1,25 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-11-03T15:03:25.103023+08:00",
-    "trade_date": "2026-11-03",
+    "generated_at": "2026-11-04T14:46:53.035293+08:00",
+    "trade_date": "2026-11-04",
     "batch": "0830",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "电池",
-      "summary": "电池 主题因市场强度和触发信号进入早盘观察。",
-      "score": 66.52,
+      "name": "百元股",
+      "summary": "百元股 主题因市场强度和触发信号进入早盘观察。",
+      "score": 129.12,
       "signals": [
-        "A股概念板块涨跌幅 1.64%，上涨家数 78"
+        "A股概念板块涨跌幅 9.39%，上涨家数 119"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "电池 成交额 58120000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "百元股 成交额 16917220096000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -29,17 +29,17 @@
       ]
     },
     {
-      "name": "养殖业",
-      "summary": "养殖业 主题因市场强度和触发信号进入早盘观察。",
-      "score": 53.51,
+      "name": "先进封装",
+      "summary": "先进封装 主题因市场强度和触发信号进入早盘观察。",
+      "score": 126.96,
       "signals": [
-        "A股概念板块涨跌幅 1.89%，上涨家数 29"
+        "A股概念板块涨跌幅 9.12%，上涨家数 112"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "养殖业 成交额 7904000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "先进封装 成交额 4204981408000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -49,17 +49,17 @@
       ]
     },
     {
-      "name": "保险",
-      "summary": "保险 主题因市场强度和触发信号进入早盘观察。",
-      "score": 52.86,
+      "name": "中芯概念",
+      "summary": "中芯概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 126.78,
       "signals": [
-        "A股概念板块涨跌幅 2.67%，上涨家数 5"
+        "A股概念板块涨跌幅 9.66%，上涨家数 65"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "保险 成交额 10823000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "中芯概念 成交额 3657596592000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -69,17 +69,17 @@
       ]
     },
     {
-      "name": "电网设备",
-      "summary": "电网设备 主题因市场强度和触发信号进入早盘观察。",
-      "score": 51.16,
+      "name": "存储芯片",
+      "summary": "存储芯片 主题因市场强度和触发信号进入早盘观察。",
+      "score": 126.48,
       "signals": [
-        "A股概念板块涨跌幅 0.02%，上涨家数 70"
+        "A股概念板块涨跌幅 9.06%，上涨家数 142"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "电网设备 成交额 24980000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "存储芯片 成交额 9266439424000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -89,17 +89,17 @@
       ]
     },
     {
-      "name": "建筑材料",
-      "summary": "建筑材料 主题因市场强度和触发信号进入早盘观察。",
-      "score": 50.8,
+      "name": "高带宽内存",
+      "summary": "高带宽内存 主题因市场强度和触发信号进入早盘观察。",
+      "score": 126.24,
       "signals": [
-        "A股概念板块涨跌幅 0.95%，上涨家数 44"
+        "A股概念板块涨跌幅 10.98%，上涨家数 28"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "建筑材料 成交额 17699000000",
-          "source_name": "akshare:stock_board_industry_summary_ths",
+          "text": "高带宽内存 成交额 1526252784000",
+          "source_name": "akshare:stock_board_concept_name_em",
           "url": "",
           "observed_at": null
         }
@@ -111,32 +111,40 @@
   ],
   "candidates": [
     {
-      "code": "301513",
-      "name": "尚水智能",
+      "code": "301583",
+      "name": "托伦斯",
       "market": "创业板",
       "themes": [
-        "电池"
+        "先进封装",
+        "存储芯片"
       ],
-      "score": 123.86,
-      "reason": "尚水智能 与 电池 主题相关，且交易活跃度进入候选池。",
+      "score": 240.62,
+      "reason": "托伦斯 与 先进封装 / 存储芯片 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
+          "text": "进入 先进封装 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 302895491，涨跌幅 20.00%",
+          "text": "成交额 1065697329，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 37.61%，量比 3.04",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -145,7 +153,121 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
+          "text": "先进封装 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 1065697328.72,
+        "turnover_rate": 37.61,
+        "volume_ratio": 3.04
+      }
+    },
+    {
+      "code": "688835",
+      "name": "高凯技术",
+      "market": "科创板",
+      "themes": [
+        "百元股",
+        "存储芯片"
+      ],
+      "score": 188.16,
+      "reason": "高凯技术 与 百元股 / 存储芯片 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 708324510，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 13.79%，量比 1.77",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 708324510.0,
+        "turnover_rate": 13.79,
+        "volume_ratio": 1.77
+      }
+    },
+    {
+      "code": "688507",
+      "name": "索辰科技",
+      "market": "科创板",
+      "themes": [
+        "百元股"
+      ],
+      "score": 187.24,
+      "reason": "索辰科技 与 百元股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1901873555，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 13.07%，量比 1.47",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -154,38 +276,115 @@
       ],
       "snapshot": {
         "pct_change": 20.0,
-        "amount": 302895491.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "amount": 1901873555.0,
+        "turnover_rate": 13.07,
+        "volume_ratio": 1.47
       }
     },
     {
-      "code": "301487",
-      "name": "盟固利",
+      "code": "688596",
+      "name": "正帆科技",
+      "market": "科创板",
+      "themes": [
+        "中芯概念",
+        "存储芯片"
+      ],
+      "score": 186.97,
+      "reason": "正帆科技 与 中芯概念 / 存储芯片 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 中芯概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1836056975，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 12.65%，量比 1.89",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "中芯概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 1836056975.0,
+        "turnover_rate": 12.65,
+        "volume_ratio": 1.89
+      }
+    },
+    {
+      "code": "300666",
+      "name": "江丰电子",
       "market": "创业板",
       "themes": [
-        "电池"
+        "百元股",
+        "中芯概念",
+        "存储芯片"
       ],
-      "score": 107.33,
-      "reason": "盟固利 与 电池 主题相关，且交易活跃度进入候选池。",
+      "score": 185.9,
+      "reason": "江丰电子 与 百元股 / 中芯概念 / 存储芯片 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
+          "text": "进入 百元股 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1645498036，涨跌幅 13.51%",
+          "text": "成交额 4149414144，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 11.00%，量比 1.83",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 中芯概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -194,47 +393,63 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
+          "text": "百元股 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "中芯概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 13.511,
-        "amount": 1645498036.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 20.0,
+        "amount": 4149414144.17,
+        "turnover_rate": 11.0,
+        "volume_ratio": 1.83
       }
     },
     {
-      "code": "002580",
-      "name": "圣阳股份",
-      "market": "深市主板",
+      "code": "688809",
+      "name": "强一股份",
+      "market": "科创板",
       "themes": [
-        "电池"
+        "百元股",
+        "存储芯片"
       ],
-      "score": 95.43,
-      "reason": "圣阳股份 与 电池 主题相关，且交易活跃度进入候选池。",
+      "score": 183.74,
+      "reason": "强一股份 与 百元股 / 存储芯片 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
+          "text": "进入 百元股 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 724849613，涨跌幅 10.02%",
+          "text": "成交额 799419095，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 10.73%，量比 2.14",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -243,47 +458,67 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
+          "text": "百元股 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 10.018,
-        "amount": 724849613.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 20.0,
+        "amount": 799419095.0,
+        "turnover_rate": 10.73,
+        "volume_ratio": 2.14
       }
     },
     {
-      "code": "600241",
-      "name": "时代万恒",
-      "market": "沪市主板",
+      "code": "688797",
+      "name": "臻宝科技",
+      "market": "科创板",
       "themes": [
-        "电池"
+        "百元股",
+        "先进封装",
+        "存储芯片"
       ],
-      "score": 94.42,
-      "reason": "时代万恒 与 电池 主题相关，且交易活跃度进入候选池。",
+      "score": 182.46,
+      "reason": "臻宝科技 与 百元股 / 先进封装 / 存储芯片 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
+          "text": "进入 百元股 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 409914442，涨跌幅 10.01%",
+          "text": "成交额 1017252912，涨跌幅 14.51%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 18.34%，量比 2.03",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 先进封装 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -292,292 +527,55 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
+          "text": "百元股 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
           "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "先进封装 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
         }
       ],
       "snapshot": {
-        "pct_change": 10.012,
-        "amount": 409914442.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 14.51,
+        "amount": 1017252912.0,
+        "turnover_rate": 18.34,
+        "volume_ratio": 2.03
       }
     },
     {
-      "code": "603906",
-      "name": "龙蟠科技",
-      "market": "沪市主板",
-      "themes": [
-        "电池"
-      ],
-      "score": 94.12,
-      "reason": "龙蟠科技 与 电池 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 361506221，涨跌幅 9.99%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 9.986,
-        "amount": 361506221.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "002805",
-      "name": "丰元股份",
-      "market": "深市主板",
-      "themes": [
-        "电池"
-      ],
-      "score": 93.96,
-      "reason": "丰元股份 与 电池 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 301247821，涨跌幅 10.04%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.038,
-        "amount": 301247821.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "002058",
-      "name": "紫竹高科",
-      "market": "深市主板",
-      "themes": [
-        "电池"
-      ],
-      "score": 93.54,
-      "reason": "紫竹高科 与 电池 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 254191956，涨跌幅 9.99%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 9.995,
-        "amount": 254191956.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "605378",
-      "name": "野马电池",
-      "market": "沪市主板",
-      "themes": [
-        "电池"
-      ],
-      "score": 91.98,
-      "reason": "野马电池 与 电池 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 96000918，涨跌幅 10.04%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 10.038,
-        "amount": 96000918.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "002300",
-      "name": "太阳电缆",
-      "market": "深市主板",
-      "themes": [
-        "电网设备"
-      ],
-      "score": 88.44,
-      "reason": "太阳电缆 与 电网设备 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 电网设备 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 764927489，涨跌幅 9.96%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "电网设备 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 9.962,
-        "amount": 764927489.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "300530",
-      "name": "领湃科技",
+      "code": "300489",
+      "name": "光智科技",
       "market": "创业板",
       "themes": [
-        "电池"
+        "百元股"
       ],
-      "score": 88.18,
-      "reason": "领湃科技 与 电池 主题相关，且交易活跃度进入候选池。",
+      "score": 179.37,
+      "reason": "光智科技 与 百元股 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 电池 主题产业链候选",
+          "text": "进入 百元股 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 579916650，涨跌幅 7.73%",
+          "text": "成交额 2296383376，涨跌幅 20.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
+          "text": "换手率 9.75%，量比 1.08",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -586,7 +584,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "电池 热度可能在开盘后快速回落"
+          "text": "百元股 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -594,10 +592,144 @@
         }
       ],
       "snapshot": {
-        "pct_change": 7.731,
-        "amount": 579916650.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
+        "pct_change": 20.0,
+        "amount": 2296383376.5,
+        "turnover_rate": 9.75,
+        "volume_ratio": 1.08
+      }
+    },
+    {
+      "code": "300223",
+      "name": "君正股份",
+      "market": "创业板",
+      "themes": [
+        "存储芯片"
+      ],
+      "score": 177.85,
+      "reason": "君正股份 与 存储芯片 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 6521871439，涨跌幅 16.10%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 14.53%，量比 1.08",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 16.1,
+        "amount": 6521871439.38,
+        "turnover_rate": 14.53,
+        "volume_ratio": 1.08
+      }
+    },
+    {
+      "code": "688627",
+      "name": "精智达",
+      "market": "科创板",
+      "themes": [
+        "百元股",
+        "先进封装",
+        "存储芯片",
+        "高带宽内存"
+      ],
+      "score": 177.69,
+      "reason": "精智达 与 百元股 / 先进封装 / 存储芯片 / 高带宽内存 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2061111459，涨跌幅 18.05%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 10.43%，量比 1.83",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 先进封装 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 存储芯片 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 高带宽内存 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "先进封装 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "存储芯片 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "高带宽内存 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 18.05,
+        "amount": 2061111459.0,
+        "turnover_rate": 10.43,
+        "volume_ratio": 1.83
       }
     }
   ],
