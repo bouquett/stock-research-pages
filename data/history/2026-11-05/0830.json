@@ -1,0 +1,687 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-05T15:07:17.318733+08:00",
+    "trade_date": "2026-11-05",
+    "batch": "0830",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "HJT电池",
+      "summary": "HJT电池 主题因市场强度和触发信号进入早盘观察。",
+      "score": 94.06,
+      "signals": [
+        "A股概念板块涨跌幅 6.17%，上涨家数 49"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "HJT电池 成交额 747677376000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "昨日首板",
+      "summary": "昨日首板 主题因市场强度和触发信号进入早盘观察。",
+      "score": 93.52,
+      "signals": [
+        "A股概念板块涨跌幅 4.94%，上涨家数 85"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日首板 成交额 3822557664000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "昨日涨停",
+      "summary": "昨日涨停 主题因市场强度和触发信号进入早盘观察。",
+      "score": 91.52,
+      "signals": [
+        "A股概念板块涨跌幅 4.69%，上涨家数 96"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日涨停 成交额 3997549568000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "昨日涨停_含一字",
+      "summary": "昨日涨停_含一字 主题因市场强度和触发信号进入早盘观察。",
+      "score": 89.84,
+      "signals": [
+        "A股概念板块涨跌幅 4.48%，上涨家数 98"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日涨停_含一字 成交额 4028348032000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "AIGC概念",
+      "summary": "AIGC概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 89.6,
+      "signals": [
+        "A股概念板块涨跌幅 4.45%，上涨家数 131"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "AIGC概念 成交额 2027565648000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "300071",
+      "name": "福石控股",
+      "market": "创业板",
+      "themes": [
+        "AIGC概念"
+      ],
+      "score": 219.82,
+      "reason": "福石控股 与 AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1220204361，涨跌幅 20.05%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 29.08%，量比 6.21",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.05,
+        "amount": 1220204361.02,
+        "turnover_rate": 29.08,
+        "volume_ratio": 6.21
+      }
+    },
+    {
+      "code": "301583",
+      "name": "托伦斯",
+      "market": "创业板",
+      "themes": [
+        "昨日首板",
+        "昨日涨停",
+        "昨日涨停_含一字"
+      ],
+      "score": 214.89,
+      "reason": "托伦斯 与 昨日首板 / 昨日涨停 / 昨日涨停_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日首板 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1487616178，涨跌幅 11.04%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 46.22%，量比 2.64",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日首板 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 11.04,
+        "amount": 1487616177.68,
+        "turnover_rate": 46.22,
+        "volume_ratio": 2.64
+      }
+    },
+    {
+      "code": "301697",
+      "name": "贝特利",
+      "market": "创业板",
+      "themes": [
+        "HJT电池",
+        "昨日首板",
+        "昨日涨停",
+        "昨日涨停_含一字"
+      ],
+      "score": 188.82,
+      "reason": "贝特利 与 HJT电池 / 昨日首板 / 昨日涨停 / 昨日涨停_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 HJT电池 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 315824342，涨跌幅 19.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 23.54%，量比 1.37",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日首板 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "HJT电池 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日首板 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.98,
+        "amount": 315824342.14,
+        "turnover_rate": 23.54,
+        "volume_ratio": 1.37
+      }
+    },
+    {
+      "code": "301052",
+      "name": "果麦文化",
+      "market": "创业板",
+      "themes": [
+        "AIGC概念"
+      ],
+      "score": 185.53,
+      "reason": "果麦文化 与 AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1417042835，涨跌幅 5.46%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 43.91%，量比 1.10",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 5.46,
+        "amount": 1417042834.53,
+        "turnover_rate": 43.91,
+        "volume_ratio": 1.1
+      }
+    },
+    {
+      "code": "301313",
+      "name": "凡拓数创",
+      "market": "创业板",
+      "themes": [
+        "AIGC概念"
+      ],
+      "score": 178.96,
+      "reason": "凡拓数创 与 AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1942035441，涨跌幅 6.83%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 38.08%，量比 1.21",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 6.83,
+        "amount": 1942035441.45,
+        "turnover_rate": 38.08,
+        "volume_ratio": 1.21
+      }
+    },
+    {
+      "code": "300093",
+      "name": "金刚光伏",
+      "market": "创业板",
+      "themes": [
+        "HJT电池"
+      ],
+      "score": 170.25,
+      "reason": "金刚光伏 与 HJT电池 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 HJT电池 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 462092300，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 9.25%，量比 3.69",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "HJT电池 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 462092300.04,
+        "turnover_rate": 9.25,
+        "volume_ratio": 3.69
+      }
+    },
+    {
+      "code": "300139",
+      "name": "晓程科技",
+      "market": "创业板",
+      "themes": [
+        "昨日首板",
+        "昨日涨停",
+        "昨日涨停_含一字"
+      ],
+      "score": 169.17,
+      "reason": "晓程科技 与 昨日首板 / 昨日涨停 / 昨日涨停_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日首板 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2745951672，涨跌幅 7.19%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 28.86%，量比 2.51",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日首板 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.19,
+        "amount": 2745951671.64,
+        "turnover_rate": 28.86,
+        "volume_ratio": 2.51
+      }
+    },
+    {
+      "code": "600892",
+      "name": "大晟文化",
+      "market": "沪市主板",
+      "themes": [
+        "昨日涨停_含一字"
+      ],
+      "score": 166.68,
+      "reason": "大晟文化 与 昨日涨停_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1168502544，涨跌幅 -2.84%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 40.75%，量比 4.25",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -2.84,
+        "amount": 1168502544.0,
+        "turnover_rate": 40.75,
+        "volume_ratio": 4.25
+      }
+    },
+    {
+      "code": "301171",
+      "name": "易点天下",
+      "market": "创业板",
+      "themes": [
+        "AIGC概念"
+      ],
+      "score": 165.41,
+      "reason": "易点天下 与 AIGC概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AIGC概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3483047018，涨跌幅 12.28%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 20.26%，量比 2.39",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AIGC概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.28,
+        "amount": 3483047017.71,
+        "turnover_rate": 20.26,
+        "volume_ratio": 2.39
+      }
+    },
+    {
+      "code": "601123",
+      "name": "马矿股份",
+      "market": "沪市主板",
+      "themes": [
+        "昨日涨停",
+        "昨日涨停_含一字"
+      ],
+      "score": 160.6,
+      "reason": "马矿股份 与 昨日涨停 / 昨日涨停_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 627797943，涨跌幅 -3.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 41.72%，量比 3.18",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -3.98,
+        "amount": 627797943.0,
+        "turnover_rate": 41.72,
+        "volume_ratio": 3.18
+      }
+    }
+  ],
+  "warnings": [
+    "夜盘代理信号读取失败：全球股指期货 HTTPSConnectionPool(host='futsseapi.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+  ]
+}
