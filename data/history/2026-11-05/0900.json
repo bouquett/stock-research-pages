@@ -1,0 +1,633 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-05T15:29:31.555857+08:00",
+    "trade_date": "2026-11-05",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "光伏设备",
+      "summary": "光伏设备 主题因市场强度和触发信号进入早盘观察。",
+      "score": 115.46,
+      "signals": [
+        "A股概念板块涨跌幅 8.02%，上涨家数 71"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "光伏设备 成交额 56154000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "消费电子",
+      "summary": "消费电子 主题因市场强度和触发信号进入早盘观察。",
+      "score": 93.33,
+      "signals": [
+        "隔夜信号：隔夜 AAPL +5.31%，映射：消费电子 苹果概念",
+        "A股概念板块涨跌幅 3.59%，上涨家数 91"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "隔夜 AAPL +5.31%，映射：消费电子 苹果概念",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "消费电子 成交额 52804000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "贵金属",
+      "summary": "贵金属 主题因市场强度和触发信号进入早盘观察。",
+      "score": 92.69,
+      "signals": [
+        "隔夜信号：隔夜 GLD +3.68%，映射：贵金属",
+        "隔夜信号：夜盘 COMEX黄金 +1.44%，映射：贵金属",
+        "A股概念板块涨跌幅 4.95%，上涨家数 14"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "隔夜 GLD +3.68%，映射：贵金属",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "overnight",
+          "text": "夜盘 COMEX黄金 +1.44%，映射：贵金属",
+          "source_name": "overnight",
+          "url": "https://finance.sina.com.cn/money/future/hf.html",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "贵金属 成交额 35023000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "文化传媒",
+      "summary": "文化传媒 主题因市场强度和触发信号进入早盘观察。",
+      "score": 87.68,
+      "signals": [
+        "A股概念板块涨跌幅 4.21%，上涨家数 82"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "文化传媒 成交额 59468000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "IT服务",
+      "summary": "IT服务 主题因市场强度和触发信号进入早盘观察。",
+      "score": 82.64,
+      "signals": [
+        "A股概念板块涨跌幅 3.58%，上涨家数 124"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "IT服务 成交额 41309000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "300093",
+      "name": "金刚光伏",
+      "market": "创业板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 146.62,
+      "reason": "金刚光伏 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 462092300，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 462092300.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "301697",
+      "name": "贝特利",
+      "market": "创业板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 145.91,
+      "reason": "贝特利 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 315824342，涨跌幅 19.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.984,
+        "amount": 315824342.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688429",
+      "name": "时创能源",
+      "market": "科创板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 142.04,
+      "reason": "时创能源 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 34383290，涨跌幅 19.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "liquidity",
+          "text": "成交额偏低，流动性需要复核"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.978,
+        "amount": 34383290.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300709",
+      "name": "精研科技",
+      "market": "创业板",
+      "themes": [
+        "消费电子"
+      ],
+      "score": 138.21,
+      "reason": "精研科技 与 消费电子 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 消费电子 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1105095402，涨跌幅 20.01%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "消费电子 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.012,
+        "amount": 1105095402.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300751",
+      "name": "迈为股份",
+      "market": "创业板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 138.19,
+      "reason": "迈为股份 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2758527208，涨跌幅 16.16%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 16.156,
+        "amount": 2758527208.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300071",
+      "name": "福石控股",
+      "market": "创业板",
+      "themes": [
+        "文化传媒"
+      ],
+      "score": 135.96,
+      "reason": "福石控股 与 文化传媒 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 文化传媒 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1220204361，涨跌幅 20.05%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "文化传媒 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.053,
+        "amount": 1220204361.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688516",
+      "name": "奥特维",
+      "market": "科创板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 131.51,
+      "reason": "奥特维 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1462805316，涨跌幅 14.30%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 14.296,
+        "amount": 1462805316.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688316",
+      "name": "青云科技",
+      "market": "科创板",
+      "themes": [
+        "IT服务"
+      ],
+      "score": 130.97,
+      "reason": "青云科技 与 IT服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 IT服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 274591425，涨跌幅 20.01%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "IT服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.01,
+        "amount": 274591425.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688726",
+      "name": "拉普拉斯",
+      "market": "科创板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 125.59,
+      "reason": "拉普拉斯 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 887619307，涨跌幅 12.62%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.615,
+        "amount": 887619307.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688680",
+      "name": "海优新材",
+      "market": "科创板",
+      "themes": [
+        "光伏设备"
+      ],
+      "score": 123.1,
+      "reason": "海优新材 与 光伏设备 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光伏设备 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 175378613，涨跌幅 12.72%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光伏设备 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.722,
+        "amount": 175378613.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    }
+  ],
+  "warnings": []
+}
