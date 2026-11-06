@@ -1,0 +1,605 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-06T15:28:43.040674+08:00",
+    "trade_date": "2026-11-06",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "银行",
+      "summary": "银行 主题因市场强度和触发信号进入早盘观察。",
+      "score": 49.02,
+      "signals": [
+        "A股概念板块涨跌幅 0.99%，上涨家数 37"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "银行 成交额 35436000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "种植业与林业",
+      "summary": "种植业与林业 主题因市场强度和触发信号进入早盘观察。",
+      "score": 48.68,
+      "signals": [
+        "A股概念板块涨跌幅 1.67%，上涨家数 18"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "种植业与林业 成交额 9394000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "电力",
+      "summary": "电力 主题因市场强度和触发信号进入早盘观察。",
+      "score": 44.47,
+      "signals": [
+        "隔夜信号：夜盘 COMEX铜 -1.16%，映射：有色金属 电力设备",
+        "A股概念板块涨跌幅 0.76%，上涨家数 59"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "夜盘 COMEX铜 -1.16%，映射：有色金属 电力设备",
+          "source_name": "overnight",
+          "url": "https://finance.sina.com.cn/money/future/hf.html",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "电力 成交额 34879000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "公路铁路运输",
+      "summary": "公路铁路运输 主题因市场强度和触发信号进入早盘观察。",
+      "score": 43.64,
+      "signals": [
+        "A股概念板块涨跌幅 0.98%，上涨家数 22"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "公路铁路运输 成交额 5401000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "农产品加工",
+      "summary": "农产品加工 主题因市场强度和触发信号进入早盘观察。",
+      "score": 34.82,
+      "signals": [
+        "A股概念板块涨跌幅 0.04%，上涨家数 15"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "农产品加工 成交额 10636000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "600371",
+      "name": "万向德农",
+      "market": "沪市主板",
+      "themes": [
+        "种植业与林业"
+      ],
+      "score": 87.64,
+      "reason": "万向德农 与 种植业与林业 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 种植业与林业 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 804874824，涨跌幅 10.04%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "种植业与林业 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.036,
+        "amount": 804874824.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600540",
+      "name": "新赛股份",
+      "market": "沪市主板",
+      "themes": [
+        "种植业与林业"
+      ],
+      "score": 86.86,
+      "reason": "新赛股份 与 种植业与林业 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 种植业与林业 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 463027840，涨跌幅 10.10%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "种植业与林业 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.096,
+        "amount": 463027840.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "601188",
+      "name": "龙江交通",
+      "market": "沪市主板",
+      "themes": [
+        "公路铁路运输"
+      ],
+      "score": 86.07,
+      "reason": "龙江交通 与 公路铁路运输 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 公路铁路运输 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1052694917，涨跌幅 10.12%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "公路铁路运输 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.116,
+        "amount": 1052694917.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "001258",
+      "name": "立新能源",
+      "market": "深市主板",
+      "themes": [
+        "电力"
+      ],
+      "score": 84.01,
+      "reason": "立新能源 与 电力 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电力 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 315751720，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电力 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 315751720.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002310",
+      "name": "东方新能",
+      "market": "深市主板",
+      "themes": [
+        "电力"
+      ],
+      "score": 83.65,
+      "reason": "东方新能 与 电力 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电力 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 278521813，涨跌幅 9.95%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电力 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.953,
+        "amount": 278521813.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002086",
+      "name": "东方海洋",
+      "market": "深市主板",
+      "themes": [
+        "农产品加工"
+      ],
+      "score": 83.23,
+      "reason": "东方海洋 与 农产品加工 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 农产品加工 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2576110018，涨跌幅 9.97%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "农产品加工 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.972,
+        "amount": 2576110018.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000595",
+      "name": "新能股份",
+      "market": "深市主板",
+      "themes": [
+        "电力"
+      ],
+      "score": 82.22,
+      "reason": "新能股份 与 电力 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电力 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 109199616，涨跌幅 10.02%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电力 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.02,
+        "amount": 109199616.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600644",
+      "name": "乐山电力",
+      "market": "沪市主板",
+      "themes": [
+        "电力"
+      ],
+      "score": 79.73,
+      "reason": "乐山电力 与 电力 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 电力 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 557217198，涨跌幅 8.25%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "电力 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.247,
+        "amount": 557217198.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600127",
+      "name": "金健米业",
+      "market": "沪市主板",
+      "themes": [
+        "农产品加工"
+      ],
+      "score": 74.13,
+      "reason": "金健米业 与 农产品加工 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 农产品加工 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2866533367，涨跌幅 6.88%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "农产品加工 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 6.877,
+        "amount": 2866533367.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "300189",
+      "name": "神农种业",
+      "market": "创业板",
+      "themes": [
+        "种植业与林业"
+      ],
+      "score": 72.98,
+      "reason": "神农种业 与 种植业与林业 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 种植业与林业 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1410126270，涨跌幅 4.83%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "种植业与林业 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 4.826,
+        "amount": 1410126270.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    }
+  ],
+  "warnings": []
+}
