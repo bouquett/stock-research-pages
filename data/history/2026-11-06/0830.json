@@ -1,0 +1,639 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-06T15:05:57.143929+08:00",
+    "trade_date": "2026-11-06",
+    "batch": "0830",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "昨日打二板以上表现",
+      "summary": "昨日打二板以上表现 主题因市场强度和触发信号进入早盘观察。",
+      "score": 111.44,
+      "signals": [
+        "A股概念板块涨跌幅 10.03%，上涨家数 4"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日打二板以上表现 成交额 21168480000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "ST股",
+      "summary": "ST股 主题因市场强度和触发信号进入早盘观察。",
+      "score": 53.52,
+      "signals": [
+        "A股概念板块涨跌幅 -0.06%，上涨家数 80"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "ST股 成交额 625891984000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "绿色电力",
+      "summary": "绿色电力 主题因市场强度和触发信号进入早盘观察。",
+      "score": 53.22,
+      "signals": [
+        "A股概念板块涨跌幅 0.09%，上涨家数 75"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "绿色电力 成交额 6235174912000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "昨日连板_含一字",
+      "summary": "昨日连板_含一字 主题因市场强度和触发信号进入早盘观察。",
+      "score": 49.88,
+      "signals": [
+        "A股概念板块涨跌幅 2.11%，上涨家数 10"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日连板_含一字 成交额 286044368000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "破净股",
+      "summary": "破净股 主题因市场强度和触发信号进入早盘观察。",
+      "score": 49.44,
+      "signals": [
+        "A股概念板块涨跌幅 -0.57%，上涨家数 125"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "破净股 成交额 26233072128000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "301697",
+      "name": "贝特利",
+      "market": "创业板",
+      "themes": [
+        "昨日连板_含一字"
+      ],
+      "score": 207.61,
+      "reason": "贝特利 与 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 631178255，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 40.68%，量比 2.15",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 631178254.66,
+        "turnover_rate": 40.68,
+        "volume_ratio": 2.15
+      }
+    },
+    {
+      "code": "601599",
+      "name": "浙文影业",
+      "market": "沪市主板",
+      "themes": [
+        "昨日打二板以上表现",
+        "昨日连板_含一字"
+      ],
+      "score": 181.06,
+      "reason": "浙文影业 与 昨日打二板以上表现 / 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日打二板以上表现 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1295102697，涨跌幅 9.96%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 21.97%，量比 5.16",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日打二板以上表现 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.96,
+        "amount": 1295102697.0,
+        "turnover_rate": 21.97,
+        "volume_ratio": 5.16
+      }
+    },
+    {
+      "code": "002088",
+      "name": "鲁阳节能",
+      "market": "深市主板",
+      "themes": [
+        "昨日打二板以上表现",
+        "昨日连板_含一字"
+      ],
+      "score": 149.8,
+      "reason": "鲁阳节能 与 昨日打二板以上表现 / 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日打二板以上表现 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 620240793，涨跌幅 10.02%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 12.43%，量比 2.39",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日打二板以上表现 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.02,
+        "amount": 620240793.43,
+        "turnover_rate": 12.43,
+        "volume_ratio": 2.39
+      }
+    },
+    {
+      "code": "002578",
+      "name": "闽发铝业",
+      "market": "深市主板",
+      "themes": [
+        "昨日打二板以上表现",
+        "昨日连板_含一字"
+      ],
+      "score": 147.56,
+      "reason": "闽发铝业 与 昨日打二板以上表现 / 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日打二板以上表现 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 538747050，涨跌幅 10.11%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 12.50%，量比 1.79",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日打二板以上表现 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.11,
+        "amount": 538747049.5,
+        "turnover_rate": 12.5,
+        "volume_ratio": 1.79
+      }
+    },
+    {
+      "code": "002388",
+      "name": "新亚制程",
+      "market": "深市主板",
+      "themes": [
+        "昨日连板_含一字"
+      ],
+      "score": 134.5,
+      "reason": "新亚制程 与 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 625385658，涨跌幅 10.07%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 19.95%，量比 1.69",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.07,
+        "amount": 625385658.0,
+        "turnover_rate": 19.95,
+        "volume_ratio": 1.69
+      }
+    },
+    {
+      "code": "603381",
+      "name": "永臻股份",
+      "market": "沪市主板",
+      "themes": [
+        "昨日打二板以上表现",
+        "昨日连板_含一字"
+      ],
+      "score": 127.59,
+      "reason": "永臻股份 与 昨日打二板以上表现 / 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日打二板以上表现 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 155858466，涨跌幅 10.03%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 5.29%，量比 1.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日打二板以上表现 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.03,
+        "amount": 155858466.0,
+        "turnover_rate": 5.29,
+        "volume_ratio": 1.0
+      }
+    },
+    {
+      "code": "002529",
+      "name": "海源复材",
+      "market": "深市主板",
+      "themes": [
+        "昨日连板_含一字"
+      ],
+      "score": 120.81,
+      "reason": "海源复材 与 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 396399332，涨跌幅 -1.79%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 21.21%，量比 6.73",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -1.79,
+        "amount": 396399332.34,
+        "turnover_rate": 21.21,
+        "volume_ratio": 6.73
+      }
+    },
+    {
+      "code": "603598",
+      "name": "引力传媒",
+      "market": "沪市主板",
+      "themes": [
+        "昨日连板_含一字"
+      ],
+      "score": 117.27,
+      "reason": "引力传媒 与 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1434925077，涨跌幅 -0.46%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 24.21%，量比 2.79",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -0.46,
+        "amount": 1434925077.0,
+        "turnover_rate": 24.21,
+        "volume_ratio": 2.79
+      }
+    },
+    {
+      "code": "600641",
+      "name": "先导基电",
+      "market": "沪市主板",
+      "themes": [
+        "昨日连板_含一字"
+      ],
+      "score": 112.1,
+      "reason": "先导基电 与 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 5249356346，涨跌幅 1.23%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.98%，量比 2.78",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 1.23,
+        "amount": 5249356346.0,
+        "turnover_rate": 17.98,
+        "volume_ratio": 2.78
+      }
+    },
+    {
+      "code": "002309",
+      "name": "中利集团",
+      "market": "深市主板",
+      "themes": [
+        "昨日连板_含一字"
+      ],
+      "score": 106.78,
+      "reason": "中利集团 与 昨日连板_含一字 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日连板_含一字 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1400948276，涨跌幅 -4.79%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 19.80%，量比 5.63",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日连板_含一字 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -4.79,
+        "amount": 1400948276.48,
+        "turnover_rate": 19.8,
+        "volume_ratio": 5.63
+      }
+    }
+  ],
+  "warnings": [
+    "夜盘代理信号读取失败：全球股指期货 HTTPSConnectionPool(host='futsseapi.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+  ]
+}
