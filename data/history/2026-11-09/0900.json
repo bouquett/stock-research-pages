@@ -1,0 +1,673 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-09T15:21:22.443767+08:00",
+    "trade_date": "2026-11-09",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "昨日首板",
+      "summary": "昨日首板 主题因市场强度和触发信号进入早盘观察。",
+      "score": 76.22,
+      "signals": [
+        "A股概念板块涨跌幅 5.29%，上涨家数 13"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日首板 成交额 120478201000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "昨日涨停",
+      "summary": "昨日涨停 主题因市场强度和触发信号进入早盘观察。",
+      "score": 72.62,
+      "signals": [
+        "A股概念板块涨跌幅 4.54%，上涨家数 21"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "昨日涨停 成交额 211043869000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "人形机器人",
+      "summary": "人形机器人 主题因市场强度和触发信号进入早盘观察。",
+      "score": 69.04,
+      "signals": [
+        "A股概念板块涨跌幅 1.88%，上涨家数 239"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "人形机器人 成交额 6673537792000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "光通信模块",
+      "summary": "光通信模块 主题因市场强度和触发信号进入早盘观察。",
+      "score": 68.96,
+      "signals": [
+        "A股概念板块涨跌幅 1.87%，上涨家数 105"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "光通信模块 成交额 4221222992000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "东方财富热股",
+      "summary": "东方财富热股 主题因市场强度和触发信号进入早盘观察。",
+      "score": 68.72,
+      "signals": [
+        "A股概念板块涨跌幅 2.59%，上涨家数 60"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "东方财富热股 成交额 8257629440000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "301697",
+      "name": "贝特利",
+      "market": "创业板",
+      "themes": [
+        "昨日涨停",
+        "东方财富热股"
+      ],
+      "score": 209.83,
+      "reason": "贝特利 与 昨日涨停 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1128384294，涨跌幅 -4.26%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 71.14%，量比 2.86",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -4.26,
+        "amount": 1128384294.04,
+        "turnover_rate": 71.14,
+        "volume_ratio": 2.86
+      }
+    },
+    {
+      "code": "002086",
+      "name": "东方海洋",
+      "market": "深市主板",
+      "themes": [
+        "昨日涨停",
+        "东方财富热股"
+      ],
+      "score": 200.25,
+      "reason": "东方海洋 与 昨日涨停 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3179635525，涨跌幅 10.08%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 46.94%，量比 1.36",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.08,
+        "amount": 3179635525.44,
+        "turnover_rate": 46.94,
+        "volume_ratio": 1.36
+      }
+    },
+    {
+      "code": "601599",
+      "name": "浙文影业",
+      "market": "沪市主板",
+      "themes": [
+        "昨日涨停",
+        "东方财富热股"
+      ],
+      "score": 199.04,
+      "reason": "浙文影业 与 昨日涨停 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2646542135，涨跌幅 5.91%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 44.45%，量比 5.51",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 5.91,
+        "amount": 2646542135.0,
+        "turnover_rate": 44.45,
+        "volume_ratio": 5.51
+      }
+    },
+    {
+      "code": "600892",
+      "name": "大晟文化",
+      "market": "沪市主板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 175.89,
+      "reason": "大晟文化 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 968942072，涨跌幅 9.94%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 35.18%，量比 2.21",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.94,
+        "amount": 968942072.0,
+        "turnover_rate": 35.18,
+        "volume_ratio": 2.21
+      }
+    },
+    {
+      "code": "600540",
+      "name": "新赛股份",
+      "market": "沪市主板",
+      "themes": [
+        "昨日首板",
+        "昨日涨停",
+        "东方财富热股"
+      ],
+      "score": 171.77,
+      "reason": "新赛股份 与 昨日首板 / 昨日涨停 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日首板 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 884547550，涨跌幅 8.30%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 31.55%，量比 3.42",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日首板 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.3,
+        "amount": 884547550.0,
+        "turnover_rate": 31.55,
+        "volume_ratio": 3.42
+      }
+    },
+    {
+      "code": "301313",
+      "name": "凡拓数创",
+      "market": "创业板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 169.64,
+      "reason": "凡拓数创 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2564393108，涨跌幅 2.78%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 43.63%，量比 1.37",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 2.78,
+        "amount": 2564393107.75,
+        "turnover_rate": 43.63,
+        "volume_ratio": 1.37
+      }
+    },
+    {
+      "code": "600371",
+      "name": "万向德农",
+      "market": "沪市主板",
+      "themes": [
+        "昨日涨停",
+        "东方财富热股"
+      ],
+      "score": 169.61,
+      "reason": "万向德农 与 昨日涨停 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1211650882，涨跌幅 9.04%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 32.78%，量比 1.98",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.04,
+        "amount": 1211650882.0,
+        "turnover_rate": 32.78,
+        "volume_ratio": 1.98
+      }
+    },
+    {
+      "code": "002388",
+      "name": "新亚制程",
+      "market": "深市主板",
+      "themes": [
+        "昨日涨停",
+        "东方财富热股"
+      ],
+      "score": 149.24,
+      "reason": "新亚制程 与 昨日涨停 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 昨日涨停 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1128674389，涨跌幅 2.25%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 31.94%，量比 2.43",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "昨日涨停 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 2.25,
+        "amount": 1128674389.3,
+        "turnover_rate": 31.94,
+        "volume_ratio": 2.43
+      }
+    },
+    {
+      "code": "688836",
+      "name": "宇树科技-W",
+      "market": "科创板",
+      "themes": [
+        "人形机器人"
+      ],
+      "score": 148.44,
+      "reason": "宇树科技-W 与 人形机器人 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 人形机器人 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 5117297142，涨跌幅 9.04%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 23.41%，量比 1.15",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "人形机器人 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.04,
+        "amount": 5117297142.0,
+        "turnover_rate": 23.41,
+        "volume_ratio": 1.15
+      }
+    },
+    {
+      "code": "002172",
+      "name": "澳洋健康",
+      "market": "深市主板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 148.33,
+      "reason": "澳洋健康 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1113506505，涨跌幅 9.96%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 23.99%，量比 0.84",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.96,
+        "amount": 1113506505.06,
+        "turnover_rate": 23.99,
+        "volume_ratio": 0.84
+      }
+    }
+  ],
+  "warnings": []
+}
