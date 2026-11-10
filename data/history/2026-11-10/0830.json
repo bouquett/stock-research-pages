@@ -1,0 +1,653 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-10T15:34:15.252965+08:00",
+    "trade_date": "2026-11-10",
+    "batch": "0830",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "AI眼镜",
+      "summary": "AI眼镜 主题因市场强度和触发信号进入早盘观察。",
+      "score": 90.4,
+      "signals": [
+        "A股概念板块涨跌幅 4.55%，上涨家数 137"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "AI眼镜 成交额 3448193456000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "苹果概念",
+      "summary": "苹果概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 89.5,
+      "signals": [
+        "隔夜信号：隔夜 AAPL +2.43%，映射：消费电子 苹果概念",
+        "A股概念板块涨跌幅 3.83%，上涨家数 121"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "隔夜 AAPL +2.43%，映射：消费电子 苹果概念",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "苹果概念 成交额 3861124544000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "影视概念",
+      "summary": "影视概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 88.54,
+      "signals": [
+        "A股概念板块涨跌幅 5.03%，上涨家数 61"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "影视概念 成交额 600762256000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "短剧互动游戏",
+      "summary": "短剧互动游戏 主题因市场强度和触发信号进入早盘观察。",
+      "score": 87.94,
+      "signals": [
+        "A股概念板块涨跌幅 5.48%，上涨家数 47"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "短剧互动游戏 成交额 704033936000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "东方财富热股",
+      "summary": "东方财富热股 主题因市场强度和触发信号进入早盘观察。",
+      "score": 87.84,
+      "signals": [
+        "A股概念板块涨跌幅 4.23%，上涨家数 83"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "东方财富热股 成交额 8659551232000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "300556",
+      "name": "丝路视觉",
+      "market": "创业板",
+      "themes": [
+        "苹果概念",
+        "影视概念"
+      ],
+      "score": 217.57,
+      "reason": "丝路视觉 与 苹果概念 / 影视概念 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 苹果概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 817085178，涨跌幅 20.01%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 36.61%，量比 2.10",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "苹果概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.01,
+        "amount": 817085177.5,
+        "turnover_rate": 36.61,
+        "volume_ratio": 2.1
+      }
+    },
+    {
+      "code": "002578",
+      "name": "闽发铝业",
+      "market": "深市主板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 199.52,
+      "reason": "闽发铝业 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1921741057，涨跌幅 9.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 38.90%，量比 3.78",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.98,
+        "amount": 1921741056.52,
+        "turnover_rate": 38.9,
+        "volume_ratio": 3.78
+      }
+    },
+    {
+      "code": "300426",
+      "name": "华智数媒",
+      "market": "创业板",
+      "themes": [
+        "影视概念",
+        "短剧互动游戏"
+      ],
+      "score": 195.99,
+      "reason": "华智数媒 与 影视概念 / 短剧互动游戏 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1150421294，涨跌幅 19.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 27.56%，量比 1.21",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 19.98,
+        "amount": 1150421293.54,
+        "turnover_rate": 27.56,
+        "volume_ratio": 1.21
+      }
+    },
+    {
+      "code": "300052",
+      "name": "中青宝",
+      "market": "创业板",
+      "themes": [
+        "短剧互动游戏"
+      ],
+      "score": 191.95,
+      "reason": "中青宝 与 短剧互动游戏 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 短剧互动游戏 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 588239240，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 20.27%，量比 4.19",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "短剧互动游戏 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 588239240.02,
+        "turnover_rate": 20.27,
+        "volume_ratio": 4.19
+      }
+    },
+    {
+      "code": "301718",
+      "name": "通则康威",
+      "market": "创业板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 185.23,
+      "reason": "通则康威 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1109907714，涨跌幅 -3.62%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 57.25%，量比 1.47",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": -3.62,
+        "amount": 1109907714.39,
+        "turnover_rate": 57.25,
+        "volume_ratio": 1.47
+      }
+    },
+    {
+      "code": "600892",
+      "name": "大晟文化",
+      "market": "沪市主板",
+      "themes": [
+        "影视概念",
+        "东方财富热股"
+      ],
+      "score": 180.73,
+      "reason": "大晟文化 与 影视概念 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1003475620，涨跌幅 10.02%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 34.15%，量比 1.63",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.02,
+        "amount": 1003475620.0,
+        "turnover_rate": 34.15,
+        "volume_ratio": 1.63
+      }
+    },
+    {
+      "code": "601188",
+      "name": "龙江交通",
+      "market": "沪市主板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 179.37,
+      "reason": "龙江交通 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1926262729，涨跌幅 10.02%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 32.44%，量比 1.94",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.02,
+        "amount": 1926262729.0,
+        "turnover_rate": 32.44,
+        "volume_ratio": 1.94
+      }
+    },
+    {
+      "code": "601599",
+      "name": "浙文影业",
+      "market": "沪市主板",
+      "themes": [
+        "影视概念",
+        "东方财富热股"
+      ],
+      "score": 178.86,
+      "reason": "浙文影业 与 影视概念 / 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2515823261，涨跌幅 4.09%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 39.67%，量比 2.45",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 4.09,
+        "amount": 2515823261.0,
+        "turnover_rate": 39.67,
+        "volume_ratio": 2.45
+      }
+    },
+    {
+      "code": "001379",
+      "name": "腾达科技",
+      "market": "深市主板",
+      "themes": [
+        "东方财富热股"
+      ],
+      "score": 178.56,
+      "reason": "腾达科技 与 东方财富热股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 东方财富热股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 288167634，涨跌幅 10.03%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 26.05%，量比 5.75",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "东方财富热股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.03,
+        "amount": 288167633.63,
+        "turnover_rate": 26.05,
+        "volume_ratio": 5.75
+      }
+    },
+    {
+      "code": "688781",
+      "name": "视涯科技-UW",
+      "market": "科创板",
+      "themes": [
+        "AI眼镜"
+      ],
+      "score": 176.95,
+      "reason": "视涯科技-UW 与 AI眼镜 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 AI眼镜 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 383169628，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.53%，量比 1.72",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "AI眼镜 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 383169628.0,
+        "turnover_rate": 17.53,
+        "volume_ratio": 1.72
+      }
+    }
+  ],
+  "warnings": []
+}
