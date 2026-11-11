@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-11T14:52:22.962121+08:00",
+    "trade_date": "2026-11-11",
+    "batch": "0830",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "CPO概念",
+      "summary": "CPO概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 100.24,
+      "signals": [
+        "A股概念板块涨跌幅 5.78%，上涨家数 92"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "CPO概念 成交额 5419984128000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "光通信模块",
+      "summary": "光通信模块 主题因市场强度和触发信号进入早盘观察。",
+      "score": 96.16,
+      "signals": [
+        "A股概念板块涨跌幅 5.27%，上涨家数 114"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "光通信模块 成交额 4657811968000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "光纤概念",
+      "summary": "光纤概念 主题因市场强度和触发信号进入早盘观察。",
+      "score": 90.74,
+      "signals": [
+        "A股概念板块涨跌幅 4.63%，上涨家数 79"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "光纤概念 成交额 3809382048000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "百元股",
+      "summary": "百元股 主题因市场强度和触发信号进入早盘观察。",
+      "score": 84.56,
+      "signals": [
+        "A股概念板块涨跌幅 3.82%，上涨家数 116"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "百元股 成交额 17858378752000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "科技风格",
+      "summary": "科技风格 主题因市场强度和触发信号进入早盘观察。",
+      "score": 82.98,
+      "signals": [
+        "A股概念板块涨跌幅 3.66%，上涨家数 79"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "科技风格 成交额 19453751552000",
+          "source_name": "akshare:stock_board_concept_name_em",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "301486",
+      "name": "致尚科技",
+      "market": "创业板",
+      "themes": [
+        "CPO概念",
+        "光纤概念",
+        "百元股"
+      ],
+      "score": 185.1,
+      "reason": "致尚科技 与 CPO概念 / 光纤概念 / 百元股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1894036774，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 17.04%，量比 2.20",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光纤概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光纤概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 1894036773.98,
+        "turnover_rate": 17.04,
+        "volume_ratio": 2.2
+      }
+    },
+    {
+      "code": "300570",
+      "name": "太辰光",
+      "market": "创业板",
+      "themes": [
+        "CPO概念",
+        "光通信模块",
+        "光纤概念",
+        "百元股"
+      ],
+      "score": 177.21,
+      "reason": "太辰光 与 CPO概念 / 光通信模块 / 光纤概念 / 百元股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 4136850826，涨跌幅 16.68%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 18.22%，量比 1.79",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光纤概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "光纤概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 16.68,
+        "amount": 4136850825.63,
+        "turnover_rate": 18.22,
+        "volume_ratio": 1.79
+      }
+    },
+    {
+      "code": "688498",
+      "name": "源杰科技",
+      "market": "科创板",
+      "themes": [
+        "CPO概念",
+        "光通信模块",
+        "光纤概念",
+        "百元股",
+        "科技风格"
+      ],
+      "score": 166.6,
+      "reason": "源杰科技 与 CPO概念 / 光通信模块 / 光纤概念 / 百元股 / 科技风格 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 7218254908，涨跌幅 20.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 8.21%，量比 1.41",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光纤概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 科技风格 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "光纤概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "科技风格 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 20.0,
+        "amount": 7218254908.0,
+        "turnover_rate": 8.21,
+        "volume_ratio": 1.41
+      }
+    },
+    {
+      "code": "603330",
+      "name": "天洋新材",
+      "market": "沪市主板",
+      "themes": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "score": 163.5,
+      "reason": "天洋新材 与 CPO概念 / 光通信模块 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 967039791，涨跌幅 10.03%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 23.30%，量比 1.44",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.03,
+        "amount": 967039791.0,
+        "turnover_rate": 23.3,
+        "volume_ratio": 1.44
+      }
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "market": "创业板",
+      "themes": [
+        "CPO概念",
+        "光通信模块",
+        "百元股",
+        "科技风格"
+      ],
+      "score": 160.14,
+      "reason": "新易盛 与 CPO概念 / 光通信模块 / 百元股 / 科技风格 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 24817946743，涨跌幅 16.77%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 9.80%，量比 1.28",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 科技风格 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "科技风格 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 16.77,
+        "amount": 24817946742.91,
+        "turnover_rate": 9.8,
+        "volume_ratio": 1.28
+      }
+    },
+    {
+      "code": "688808",
+      "name": "联讯仪器",
+      "market": "科创板",
+      "themes": [
+        "CPO概念",
+        "光通信模块",
+        "百元股"
+      ],
+      "score": 155.48,
+      "reason": "联讯仪器 与 CPO概念 / 光通信模块 / 百元股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 4013637744，涨跌幅 11.24%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 16.36%，量比 1.38",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 11.24,
+        "amount": 4013637744.0,
+        "turnover_rate": 16.36,
+        "volume_ratio": 1.38
+      }
+    },
+    {
+      "code": "301205",
+      "name": "联特科技",
+      "market": "创业板",
+      "themes": [
+        "CPO概念",
+        "光通信模块",
+        "百元股"
+      ],
+      "score": 150.11,
+      "reason": "联特科技 与 CPO概念 / 光通信模块 / 百元股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1756859365，涨跌幅 12.02%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 13.28%，量比 1.35",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 12.02,
+        "amount": 1756859364.69,
+        "turnover_rate": 13.28,
+        "volume_ratio": 1.35
+      }
+    },
+    {
+      "code": "688143",
+      "name": "长盈通",
+      "market": "科创板",
+      "themes": [
+        "光通信模块",
+        "光纤概念",
+        "百元股"
+      ],
+      "score": 149.11,
+      "reason": "长盈通 与 光通信模块 / 光纤概念 / 百元股 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2101195585，涨跌幅 11.89%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 13.82%，量比 1.31",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光纤概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光纤概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 11.89,
+        "amount": 2101195585.0,
+        "turnover_rate": 13.82,
+        "volume_ratio": 1.31
+      }
+    },
+    {
+      "code": "000823",
+      "name": "超声电子",
+      "market": "深市主板",
+      "themes": [
+        "光通信模块"
+      ],
+      "score": 147.03,
+      "reason": "超声电子 与 光通信模块 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 光通信模块 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2879259875，涨跌幅 2.98%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 25.89%，量比 1.30",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "光通信模块 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 2.98,
+        "amount": 2879259875.17,
+        "turnover_rate": 25.89,
+        "volume_ratio": 1.3
+      }
+    },
+    {
+      "code": "300394",
+      "name": "天孚通信",
+      "market": "创业板",
+      "themes": [
+        "CPO概念",
+        "光纤概念",
+        "百元股",
+        "科技风格"
+      ],
+      "score": 146.15,
+      "reason": "天孚通信 与 CPO概念 / 光纤概念 / 百元股 / 科技风格 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 CPO概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 10021809511，涨跌幅 13.94%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 6.77%，量比 1.42",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 光纤概念 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 百元股 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "theme",
+          "text": "进入 科技风格 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "CPO概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        },
+        {
+          "kind": "theme",
+          "text": "光纤概念 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "百元股 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "theme",
+          "text": "科技风格 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 13.94,
+        "amount": 10021809511.06,
+        "turnover_rate": 6.77,
+        "volume_ratio": 1.42
+      }
+    }
+  ],
+  "warnings": []
+}
