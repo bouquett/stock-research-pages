@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "meta": {
+    "generated_at": "2026-11-12T15:49:48.056224+08:00",
+    "trade_date": "2026-11-12",
+    "batch": "0900",
+    "data_status": "ok",
+    "disclaimer": "仅供研究参考，不构成投资建议。"
+  },
+  "themes": [
+    {
+      "name": "半导体",
+      "summary": "半导体 主题因市场强度和触发信号进入早盘观察。",
+      "score": 57.46,
+      "signals": [
+        "隔夜信号：隔夜 NVDA +2.87%，映射：半导体 AI算力",
+        "隔夜信号：隔夜 AMD +7.32%，映射：半导体 AI算力",
+        "隔夜信号：隔夜 AVGO +3.99%，映射：半导体 AI算力 CPO",
+        "隔夜信号：夜盘 小型纳指当月连续 -1.04%，映射：半导体 AI算力 CPO 市场风险偏好",
+        "A股概念板块涨跌幅 -0.87%，上涨家数 48"
+      ],
+      "evidence": [
+        {
+          "kind": "overnight",
+          "text": "隔夜 NVDA +2.87%，映射：半导体 AI算力",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "overnight",
+          "text": "隔夜 AMD +7.32%，映射：半导体 AI算力",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "overnight",
+          "text": "隔夜 AVGO +3.99%，映射：半导体 AI算力 CPO",
+          "source_name": "overnight",
+          "url": "https://finnhub.io/docs/api/quote",
+          "observed_at": null
+        },
+        {
+          "kind": "overnight",
+          "text": "夜盘 小型纳指当月连续 -1.04%，映射：半导体 AI算力 CPO 市场风险偏好",
+          "source_name": "overnight",
+          "url": "https://quote.eastmoney.com/globalfuture/",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "半导体 成交额 296227000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "燃气",
+      "summary": "燃气 主题因市场强度和触发信号进入早盘观察。",
+      "score": 41.6,
+      "signals": [
+        "A股概念板块涨跌幅 0.95%，上涨家数 16"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "燃气 成交额 5430000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "零售",
+      "summary": "零售 主题因市场强度和触发信号进入早盘观察。",
+      "score": 40.16,
+      "signals": [
+        "A股概念板块涨跌幅 0.07%，上涨家数 32"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "零售 成交额 14242000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "医疗服务",
+      "summary": "医疗服务 主题因市场强度和触发信号进入早盘观察。",
+      "score": 39.3,
+      "signals": [
+        "A股概念板块涨跌幅 0.30%，上涨家数 23"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "医疗服务 成交额 31840000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    },
+    {
+      "name": "白酒",
+      "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
+      "score": 38.72,
+      "signals": [
+        "A股概念板块涨跌幅 0.79%，上涨家数 8"
+      ],
+      "evidence": [
+        {
+          "kind": "market",
+          "text": "白酒 成交额 12603000000",
+          "source_name": "akshare:stock_board_industry_summary_ths",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        "主题热度可能在开盘后快速变化"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "code": "688801",
+      "name": "燧原科技",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 102.62,
+      "reason": "燧原科技 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2187650728，涨跌幅 13.13%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 13.134,
+        "amount": 2187650728.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688702",
+      "name": "盛科通信",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 98.24,
+      "reason": "盛科通信 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3916261156，涨跌幅 11.34%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 11.338,
+        "amount": 3916261156.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688802",
+      "name": "沐曦股份",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 90.19,
+      "reason": "沐曦股份 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3087946259，涨跌幅 8.79%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.793,
+        "amount": 3087946259.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688256",
+      "name": "寒武纪",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 90.19,
+      "reason": "寒武纪 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 20172343537，涨跌幅 8.11%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.111,
+        "amount": 20172343537.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688795",
+      "name": "摩尔线程",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 88.92,
+      "reason": "摩尔线程 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 3325029561，涨跌幅 8.32%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 8.325,
+        "amount": 3325029561.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "688729",
+      "name": "屹唐股份",
+      "market": "科创板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 86.03,
+      "reason": "屹唐股份 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2125503497，涨跌幅 7.62%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.62,
+        "amount": 2125503497.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "301660",
+      "name": "粤芯半导",
+      "market": "创业板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 85.5,
+      "reason": "粤芯半导 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2830179708，涨跌幅 7.28%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.28,
+        "amount": 2830179708.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "301717",
+      "name": "超纯应材",
+      "market": "创业板",
+      "themes": [
+        "半导体"
+      ],
+      "score": 85.38,
+      "reason": "超纯应材 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 半导体 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1098792146，涨跌幅 7.79%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "半导体 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.787,
+        "amount": 1098792146.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600327",
+      "name": "大东方",
+      "market": "沪市主板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 84.99,
+      "reason": "大东方 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 2292133972，涨跌幅 9.95%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 9.954,
+        "amount": 2292133972.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002172",
+      "name": "澳洋健康",
+      "market": "深市主板",
+      "themes": [
+        "医疗服务"
+      ],
+      "score": 84.59,
+      "reason": "澳洋健康 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 医疗服务 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1461034681，涨跌幅 10.08%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "医疗服务 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.083,
+        "amount": 1461034681.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    }
+  ],
+  "warnings": []
+}
