@@ -1,56 +1,24 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-11-12T15:49:48.056224+08:00",
-    "trade_date": "2026-11-12",
-    "batch": "0900",
+    "generated_at": "2026-11-13T15:00:09.927115+08:00",
+    "trade_date": "2026-11-13",
+    "batch": "0830",
     "data_status": "ok",
     "disclaimer": "仅供研究参考，不构成投资建议。"
   },
   "themes": [
     {
-      "name": "半导体",
-      "summary": "半导体 主题因市场强度和触发信号进入早盘观察。",
-      "score": 57.46,
+      "name": "影视院线",
+      "summary": "影视院线 主题因市场强度和触发信号进入早盘观察。",
+      "score": 68.54,
       "signals": [
-        "隔夜信号：隔夜 NVDA +2.87%，映射：半导体 AI算力",
-        "隔夜信号：隔夜 AMD +7.32%，映射：半导体 AI算力",
-        "隔夜信号：隔夜 AVGO +3.99%，映射：半导体 AI算力 CPO",
-        "隔夜信号：夜盘 小型纳指当月连续 -1.04%，映射：半导体 AI算力 CPO 市场风险偏好",
-        "A股概念板块涨跌幅 -0.87%，上涨家数 48"
+        "A股概念板块涨跌幅 4.33%，上涨家数 13"
       ],
       "evidence": [
         {
-          "kind": "overnight",
-          "text": "隔夜 NVDA +2.87%，映射：半导体 AI算力",
-          "source_name": "overnight",
-          "url": "https://finnhub.io/docs/api/quote",
-          "observed_at": null
-        },
-        {
-          "kind": "overnight",
-          "text": "隔夜 AMD +7.32%，映射：半导体 AI算力",
-          "source_name": "overnight",
-          "url": "https://finnhub.io/docs/api/quote",
-          "observed_at": null
-        },
-        {
-          "kind": "overnight",
-          "text": "隔夜 AVGO +3.99%，映射：半导体 AI算力 CPO",
-          "source_name": "overnight",
-          "url": "https://finnhub.io/docs/api/quote",
-          "observed_at": null
-        },
-        {
-          "kind": "overnight",
-          "text": "夜盘 小型纳指当月连续 -1.04%，映射：半导体 AI算力 CPO 市场风险偏好",
-          "source_name": "overnight",
-          "url": "https://quote.eastmoney.com/globalfuture/",
-          "observed_at": null
-        },
-        {
           "kind": "market",
-          "text": "半导体 成交额 296227000000",
+          "text": "影视院线 成交额 20924000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -61,16 +29,16 @@
       ]
     },
     {
-      "name": "燃气",
-      "summary": "燃气 主题因市场强度和触发信号进入早盘观察。",
-      "score": 41.6,
+      "name": "银行",
+      "summary": "银行 主题因市场强度和触发信号进入早盘观察。",
+      "score": 52.2,
       "signals": [
-        "A股概念板块涨跌幅 0.95%，上涨家数 16"
+        "A股概念板块涨跌幅 1.35%，上涨家数 38"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "燃气 成交额 5430000000",
+          "text": "银行 成交额 37819000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -81,16 +49,16 @@
       ]
     },
     {
-      "name": "零售",
-      "summary": "零售 主题因市场强度和触发信号进入早盘观察。",
-      "score": 40.16,
+      "name": "养殖业",
+      "summary": "养殖业 主题因市场强度和触发信号进入早盘观察。",
+      "score": 42.61,
       "signals": [
-        "A股概念板块涨跌幅 0.07%，上涨家数 32"
+        "A股概念板块涨跌幅 0.91%，上涨家数 18"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "零售 成交额 14242000000",
+          "text": "养殖业 成交额 9477000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -101,16 +69,16 @@
       ]
     },
     {
-      "name": "医疗服务",
-      "summary": "医疗服务 主题因市场强度和触发信号进入早盘观察。",
-      "score": 39.3,
+      "name": "保险",
+      "summary": "保险 主题因市场强度和触发信号进入早盘观察。",
+      "score": 40.97,
       "signals": [
-        "A股概念板块涨跌幅 0.30%，上涨家数 23"
+        "A股概念板块涨跌幅 1.30%，上涨家数 5"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "医疗服务 成交额 31840000000",
+          "text": "保险 成交额 4908000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -123,14 +91,14 @@
     {
       "name": "白酒",
       "summary": "白酒 主题因市场强度和触发信号进入早盘观察。",
-      "score": 38.72,
+      "score": 40.58,
       "signals": [
-        "A股概念板块涨跌幅 0.79%，上涨家数 8"
+        "A股概念板块涨跌幅 0.91%，上涨家数 11"
       ],
       "evidence": [
         {
           "kind": "market",
-          "text": "白酒 成交额 12603000000",
+          "text": "白酒 成交额 15602000000",
           "source_name": "akshare:stock_board_industry_summary_ths",
           "url": "",
           "observed_at": null
@@ -143,319 +111,25 @@
   ],
   "candidates": [
     {
-      "code": "688801",
-      "name": "燧原科技",
-      "market": "科创板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 102.62,
-      "reason": "燧原科技 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 2187650728，涨跌幅 13.13%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 13.134,
-        "amount": 2187650728.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688702",
-      "name": "盛科通信",
-      "market": "科创板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 98.24,
-      "reason": "盛科通信 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 3916261156，涨跌幅 11.34%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 11.338,
-        "amount": 3916261156.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688802",
-      "name": "沐曦股份",
-      "market": "科创板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 90.19,
-      "reason": "沐曦股份 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 3087946259，涨跌幅 8.79%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 8.793,
-        "amount": 3087946259.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688256",
-      "name": "寒武纪",
-      "market": "科创板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 90.19,
-      "reason": "寒武纪 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 20172343537，涨跌幅 8.11%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 8.111,
-        "amount": 20172343537.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688795",
-      "name": "摩尔线程",
-      "market": "科创板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 88.92,
-      "reason": "摩尔线程 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 3325029561，涨跌幅 8.32%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 8.325,
-        "amount": 3325029561.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "688729",
-      "name": "屹唐股份",
-      "market": "科创板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 86.03,
-      "reason": "屹唐股份 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 2125503497，涨跌幅 7.62%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 7.62,
-        "amount": 2125503497.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "301660",
-      "name": "粤芯半导",
+      "code": "300528",
+      "name": "幸福蓝海",
       "market": "创业板",
       "themes": [
-        "半导体"
+        "影视院线"
       ],
-      "score": 85.5,
-      "reason": "粤芯半导 与 半导体 主题相关，且交易活跃度进入候选池。",
+      "score": 126.94,
+      "reason": "幸福蓝海 与 影视院线 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
+          "text": "进入 影视院线 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 2830179708，涨跌幅 7.28%",
+          "text": "成交额 1035916918，涨跌幅 20.01%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -471,7 +145,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
+          "text": "影视院线 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -479,81 +153,32 @@
         }
       ],
       "snapshot": {
-        "pct_change": 7.28,
-        "amount": 2830179708.0,
+        "pct_change": 20.013,
+        "amount": 1035916918.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "301717",
-      "name": "超纯应材",
-      "market": "创业板",
-      "themes": [
-        "半导体"
-      ],
-      "score": 85.38,
-      "reason": "超纯应材 与 半导体 主题相关，且交易活跃度进入候选池。",
-      "evidence": [
-        {
-          "kind": "theme",
-          "text": "进入 半导体 主题产业链候选",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "market",
-          "text": "成交额 1098792146，涨跌幅 7.79%",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        },
-        {
-          "kind": "activity",
-          "text": "换手率 0.00%，量比 0.00",
-          "source_name": "",
-          "url": "",
-          "observed_at": null
-        }
-      ],
-      "risks": [
-        {
-          "kind": "theme",
-          "text": "半导体 热度可能在开盘后快速回落"
-        },
-        {
-          "kind": "volatility",
-          "text": "近期涨幅较高，盘中波动可能放大"
-        }
-      ],
-      "snapshot": {
-        "pct_change": 7.787,
-        "amount": 1098792146.0,
-        "turnover_rate": 0.0,
-        "volume_ratio": 0.0
-      }
-    },
-    {
-      "code": "600327",
-      "name": "大东方",
+      "code": "600977",
+      "name": "中国电影",
       "market": "沪市主板",
       "themes": [
-        "医疗服务"
+        "影视院线"
       ],
-      "score": 84.99,
-      "reason": "大东方 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "score": 97.96,
+      "reason": "中国电影 与 影视院线 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
+          "text": "进入 影视院线 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 2292133972，涨跌幅 9.95%",
+          "text": "成交额 1898578335，涨跌幅 10.00%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -569,7 +194,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
+          "text": "影视院线 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -577,32 +202,32 @@
         }
       ],
       "snapshot": {
-        "pct_change": 9.954,
-        "amount": 2292133972.0,
+        "pct_change": 10.0,
+        "amount": 1898578335.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
     },
     {
-      "code": "002172",
-      "name": "澳洋健康",
+      "code": "002739",
+      "name": "儒意电影",
       "market": "深市主板",
       "themes": [
-        "医疗服务"
+        "影视院线"
       ],
-      "score": 84.59,
-      "reason": "澳洋健康 与 医疗服务 主题相关，且交易活跃度进入候选池。",
+      "score": 97.48,
+      "reason": "儒意电影 与 影视院线 主题相关，且交易活跃度进入候选池。",
       "evidence": [
         {
           "kind": "theme",
-          "text": "进入 医疗服务 主题产业链候选",
+          "text": "进入 影视院线 主题产业链候选",
           "source_name": "",
           "url": "",
           "observed_at": null
         },
         {
           "kind": "market",
-          "text": "成交额 1461034681，涨跌幅 10.08%",
+          "text": "成交额 1559258009，涨跌幅 9.96%",
           "source_name": "",
           "url": "",
           "observed_at": null
@@ -618,7 +243,7 @@
       "risks": [
         {
           "kind": "theme",
-          "text": "医疗服务 热度可能在开盘后快速回落"
+          "text": "影视院线 热度可能在开盘后快速回落"
         },
         {
           "kind": "volatility",
@@ -626,8 +251,347 @@
         }
       ],
       "snapshot": {
-        "pct_change": 10.083,
-        "amount": 1461034681.0,
+        "pct_change": 9.956,
+        "amount": 1559258009.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600715",
+      "name": "文投控股",
+      "market": "沪市主板",
+      "themes": [
+        "影视院线"
+      ],
+      "score": 97.01,
+      "reason": "文投控股 与 影视院线 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视院线 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1044631824，涨跌幅 10.03%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视院线 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.032,
+        "amount": 1044631824.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "603103",
+      "name": "横店影视",
+      "market": "沪市主板",
+      "themes": [
+        "影视院线"
+      ],
+      "score": 93.43,
+      "reason": "横店影视 与 影视院线 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视院线 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 133280426，涨跌幅 10.03%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视院线 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.028,
+        "amount": 133280426.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002905",
+      "name": "金逸影视",
+      "market": "深市主板",
+      "themes": [
+        "影视院线"
+      ],
+      "score": 92.46,
+      "reason": "金逸影视 与 影视院线 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视院线 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 80203714，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视院线 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 80203714.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "001330",
+      "name": "博纳影业",
+      "market": "深市主板",
+      "themes": [
+        "影视院线"
+      ],
+      "score": 89.38,
+      "reason": "博纳影业 与 影视院线 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视院线 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 1499660376，涨跌幅 7.28%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视院线 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 7.278,
+        "amount": 1499660376.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "000802",
+      "name": "北京文化",
+      "market": "深市主板",
+      "themes": [
+        "影视院线"
+      ],
+      "score": 86.3,
+      "reason": "北京文化 与 影视院线 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 影视院线 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 847123211，涨跌幅 6.58%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "影视院线 热度可能在开盘后快速回落"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 6.582,
+        "amount": 847123211.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "600467",
+      "name": "好当家",
+      "market": "沪市主板",
+      "themes": [
+        "养殖业"
+      ],
+      "score": 84.9,
+      "reason": "好当家 与 养殖业 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 养殖业 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 741462999，涨跌幅 10.08%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "养殖业 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.081,
+        "amount": 741462999.0,
+        "turnover_rate": 0.0,
+        "volume_ratio": 0.0
+      }
+    },
+    {
+      "code": "002124",
+      "name": "天邦食品",
+      "market": "深市主板",
+      "themes": [
+        "养殖业"
+      ],
+      "score": 84.76,
+      "reason": "天邦食品 与 养殖业 主题相关，且交易活跃度进入候选池。",
+      "evidence": [
+        {
+          "kind": "theme",
+          "text": "进入 养殖业 主题产业链候选",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "market",
+          "text": "成交额 787236302，涨跌幅 10.00%",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        },
+        {
+          "kind": "activity",
+          "text": "换手率 0.00%，量比 0.00",
+          "source_name": "",
+          "url": "",
+          "observed_at": null
+        }
+      ],
+      "risks": [
+        {
+          "kind": "theme",
+          "text": "养殖业 热度可能在开盘后快速回落"
+        },
+        {
+          "kind": "volatility",
+          "text": "近期涨幅较高，盘中波动可能放大"
+        }
+      ],
+      "snapshot": {
+        "pct_change": 10.0,
+        "amount": 787236302.0,
         "turnover_rate": 0.0,
         "volume_ratio": 0.0
       }
